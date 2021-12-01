@@ -1,0 +1,21 @@
+{
+	"name": "rei-website",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"autoprefixer": "^10.4.0",
+		"fs-extra": "^10.0.0",
+		"gulp": "^4.0.2",
+		"gulp-concat": "^2.6.1",
+		"gulp-filenames": "^4.0.1",
+		"gulp-freeze": "^0.0.2",
+		"gulp-noop": "^1.0.1",
+		"gulp-postcss": "^9.0.1",
+		"gulp-sass": "^5.0.0",
+		"sass": "^1.34.0",
+		"tailwindcss": "^2.2.19"
+	}
+}
