@@ -1,5 +1,22 @@
-.aa {
-	.acb {
-		background-color: white;
-	}
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Karla', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Poppins', sans-serif;
+}
+
+svg {
+	fill: currentColor;
 }
