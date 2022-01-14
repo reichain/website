@@ -7,3 +7,8 @@ tailwind-watch:
 
 gulp-watch:
 	npx gulp watch
+
+build: style
+	mkdir -p dist
+	cp -r assets public ./dist
+	cp index.html ./dist
