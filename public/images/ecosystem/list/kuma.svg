@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="482px" height="482px" viewBox="0 0 482 482" version="1.1">
+    <title>KUMA</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="107.661838%" id="linearGradient-1">
+            <stop stop-color="#EB32C3" stop-opacity="0.994919143" offset="0%"/>
+            <stop stop-color="#FE2339" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="107.661838%" id="linearGradient-2">
+            <stop stop-color="#ED2CC3" stop-opacity="0.994919143" offset="0%"/>
+            <stop stop-color="#FE2339" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <circle fill="url(#linearGradient-1)" cx="241" cy="241" r="241"/>
+            <circle fill="#FFFFFF" cx="240.5" cy="241.5" r="220.5"/>
+            <circle fill="url(#linearGradient-2)" cx="240.5" cy="241.5" r="197.5"/>
+            <g transform="translate(240.500000, 276.726686) rotate(90.000000) translate(-240.500000, -276.726686) translate(113.434370, 79.226686)" fill="#FFFFFF" fill-rule="nonzero">
+                <path d="M190.377484,-3.3821006e-14 L254.13126,63.7296678 L95.1906429,195.172703 L250.07204,331.10339 L186.153261,395 C145.312355,353.199212 114.681676,321.84862 94.2612228,300.948226 C73.8407698,280.047832 43.2100904,248.697241 2.36918439,206.896453 C-2.81486343,201.590565 1.98442733,185.168167 2.93454582,184.113874 C3.14441307,183.880997 3.36133678,183.654571 3.58501443,183.434914 C45.0944522,142.6716 76.2265305,112.099114 96.9812494,91.7174571 C117.735968,71.3358 148.868047,40.7633143 190.377484,-3.3821006e-14 Z" id="Combined-Shape"/>
+            </g>
+            <rect fill="#FFFFFF" x="49" y="137" width="381" height="23"/>
+        </g>
+    </g>
+</svg>

@@ -1,14 +1,13 @@
-style:
-	npx tailwindcss -i ./styles/tailwind.css -o ./public/tailwind.css
-	npx gulp
+dev:
+	npm run start
 
-tailwind-watch:
-	npx tailwindcss -i ./styles/tailwind.css -o ./public/tailwind.css --watch
+build:
+	npm run build
 
-gulp-watch:
-	npx gulp watch
+deploy-ipfs: build
+deploy-ipfs: cd dist && ipfs --api /ip4/192.168.100.32/tcp/5001 add -r .
+# deploy-ipfs: HASH=$(shell cd dist && ipfs --api /ip4/192.168.100.32/tcp/5001 add -r . | awk '/^added (.)* build$$/{print $$2}')
 
-build: style
-	mkdir -p dist
-	cp -r assets public ./dist
-	cp index.html ./dist
+publish-ipfs:
+	echo $(HASH)
+	deploys route create -project=reichain -location=gke.cluster-rcf2 -domain=reichain.io -deployment=ipfs://$(HASH)

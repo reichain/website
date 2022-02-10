@@ -1,0 +1,12 @@
+.rei-hr {
+    display: block;
+    height: var(--hr-height);
+    background: var(--hr-background);
+}
+
+.rei-vt {
+    display: block;
+    width: var(--vt-width);
+    height: 100%;
+    background: var(--vt-background);
+}

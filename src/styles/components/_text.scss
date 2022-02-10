@@ -1,0 +1,195 @@
+$scale: 0.85;
+
+%rei-text-base {
+    // font-family: Roboto;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+%ksw2-text-base {
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.rei-text-display-1 {
+    @extend %rei-text-base;
+    font-size: 80px;
+}
+.rei-text-display-2 {
+    @extend %rei-text-base;
+    font-size: 72px;
+}
+.rei-text-display-3 {
+    @extend %rei-text-base;
+    font-size: 64px;
+}
+.rei-text-display-4 {
+    @extend %rei-text-base;
+    font-size: 56px;
+}
+.rei-text-display-5 {
+    @extend %rei-text-base;
+    font-size: 48px;
+}
+.rei-text-display-6 {
+    @extend %rei-text-base;
+    font-size: 40px;
+}
+.rei-text-heading-1 {
+    @extend %rei-text-base;
+    font-size: 40px;
+}
+.rei-text-heading-2 {
+    @extend %rei-text-base;
+    font-size: 32px;
+}
+.rei-text-heading-3 {
+    @extend %rei-text-base;
+    font-size: 28px;
+}
+.rei-text-heading-4 {
+    @extend %rei-text-base;
+    font-size: 24px;
+}
+.rei-text-heading-5 {
+    @extend %rei-text-base;
+    font-size: 20px;
+}
+.rei-text-heading-6 {
+    @extend %rei-text-base;
+    font-size: 16px;
+}
+.rei-text, .rei-text-paragraph, .rei-text-paragraph-regular {
+    @extend %rei-text-base;
+    font-size: 16px;
+    font-weight: normal;
+}
+.rei-text-bold, .rei-text-paragraph-bold {
+    @extend %rei-text-base;
+    font-size: 16px;
+}
+.rei-text-caption, .rei-text-caption-regular {
+    @extend %rei-text-base;
+    font-size: 14px;
+    font-weight: normal;
+}
+.rei-text-caption-bold {
+    @extend %rei-text-base;
+    font-size: 14px;
+}
+.rei-text-button {
+    @extend %rei-text-base;
+    font-size: 16px;
+}
+.rei-text-link {
+    @extend %rei-text-base;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration-line: underline;
+}
+
+.rei-text-h1 {
+    @extend %ksw2-text-base;
+    font-weight: 300;
+    font-size: #{$scale * 72}px;
+}
+.rei-text-h2 {
+    @extend %ksw2-text-base;
+    font-weight: 300;
+    font-size: #{$scale * 64}px;
+}
+.rei-text-h3 {
+    @extend %ksw2-text-base;
+    font-weight: 400;
+    font-size: #{$scale * 48}px;
+}
+.rei-text-h4 {
+    @extend %ksw2-text-base;
+    font-weight: 400;
+    font-size: #{$scale * 40}px;
+}
+.rei-text-h5 {
+    @extend %ksw2-text-base;
+    font-weight: 400;
+    font-size: #{$scale * 32}px;
+}
+.rei-text-h6 {
+    @extend %ksw2-text-base;
+    font-weight: 500;
+    font-size: #{$scale * 24}px;
+}
+.rei-text-subtitle-1 {
+    @extend %ksw2-text-base;
+    font-weight: 400;
+    font-size: #{$scale * 16}px;
+}
+.rei-text-subtitle-2 {
+    @extend %ksw2-text-base;
+    font-weight: 500;
+    font-size: #{$scale * 14}px;
+}
+.rei-text-body-1 {
+    @extend %ksw2-text-base;
+    font-weight: 400;
+    font-size: #{$scale * 16}px;
+}
+.rei-text-body-2 {
+    @extend %ksw2-text-base;
+    font-weight: 400;
+    font-size: #{$scale * 14}px;
+}
+.rei-text-button-large {
+    @extend %ksw2-text-base;
+    font-weight: 500;
+    font-size: #{$scale * 14}px;
+    text-transform: uppercase;
+}
+.rei-text-button-medium {
+    @extend %ksw2-text-base;
+    font-weight: 500;
+    font-size: #{$scale * 15}px;
+    text-transform: uppercase;
+}
+.rei-text-button-small {
+    @extend %ksw2-text-base;
+    font-weight: 500;
+    font-size: #{$scale * 14}px;
+    text-transform: uppercase;
+}
+.rei-text-caption {
+    @extend %ksw2-text-base;
+    font-weight: 400;
+    font-size: #{$scale * 12}px;
+}
+.rei-text-overline {
+    @extend %ksw2-text-base;
+    font-weight: 400;
+    font-size: #{$scale * 12}px;
+    text-transform: uppercase;
+}
+.rei-text-avatar {
+    @extend %ksw2-text-base;
+    font-weight: 400;
+    font-size: #{$scale * 20}px;
+}
+.rei-text-input-label {
+    @extend %ksw2-text-base;
+    font-weight: 400;
+    font-size: #{$scale * 12}px;
+}
+.rei-text-input-helper {
+    @extend %ksw2-text-base;
+    font-weight: 400;
+    font-size: #{$scale * 12}px;
+}
+.rei-text-input-text {
+    @extend %ksw2-text-base;
+    font-weight: 400;
+    font-size: #{$scale * 16}px;
+}
+.rei-text-tooltip {
+    @extend %ksw2-text-base;
+    font-weight: 500;
+    font-size: #{$scale * 10}px;
+}

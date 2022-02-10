@@ -1,0 +1,9 @@
+.#{$atom-prefix}tf-n    { transform: none !important; }
+.#{$atom-prefix}tf-us    { transform: unset !important; }
+
+@each $breakpointName, $breakpointSize in $breakpoints {
+	@media (min-width: $breakpointSize) {
+		.#{$atom-prefix}tf-n-#{$breakpointName}    { transform: none !important; }
+		.#{$atom-prefix}tf-us-#{$breakpointName}    { transform: unset !important; }
+	};
+};
