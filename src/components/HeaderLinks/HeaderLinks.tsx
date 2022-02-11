@@ -42,7 +42,7 @@ export const HeaderLinks = () => {
         <>
             <div className="_dp-f _fdrt-cl _fdrt-r-md _pdt-64px _pdbt-12px _pdv-0px-md _mgh-12px-md">
                 <a
-                    id="add-rei-button"
+                    id="chainlist-button"
                     href="https://chainlist.org/?search=REI%20Chain"
                     target="_blank"
                     rel="noreferrer"
