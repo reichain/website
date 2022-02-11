@@ -9,7 +9,10 @@ import Footer from 'components/Footer/Footer'
 import Header from 'components/Header/Header'
 import HeaderLinks from 'components/HeaderLinks/HeaderLinks'
 import { useSwitchTheme } from 'components/ThemeProvider/ThemeProvider'
-import { initialize as initializeFirebase } from 'config/firebaseConfig'
+import {
+    initialize as initializeFirebase,
+    setAnalyticsEnabled,
+} from 'config/firebaseConfig'
 import Ecosystem from 'pages/Ecosystem/Ecosystem'
 import Home from 'pages/Home/Home'
 import React, { useEffect } from 'react'
@@ -25,6 +28,7 @@ function App() {
     useEffect(() => {
         // initializeGTM()
         initializeFirebase()
+        setAnalyticsEnabled(true)
     }, [])
 
     const location = useLocation()
