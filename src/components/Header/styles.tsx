@@ -178,6 +178,7 @@ const styles = (theme) =>
                 display: 'flex !important',
                 MsFlexPreferredSize: 'auto',
                 flexBasis: 'auto',
+                flexDirection: 'row-reverse',
             },
             WebkitBoxFlex: 1,
             MsFlexPositive: '1',

@@ -98,7 +98,7 @@ export const Top = () => {
                         DISCOVER REI
                     </a>
                 </div>
-                <div className="lo-12 _gg-12px _gg-16px-sm _gg-24px-lg _fw-w _mgt-64px _mgbt-64px">
+                <div className="lo-12 lo-12-sm _gg-12px _gg-16px-sm _gg-24px-lg _fw-w _mgt-64px _mgbt-64px">
                     <a
                         href="https://reiscan.com/"
                         target="_blank"
@@ -117,6 +117,24 @@ export const Top = () => {
                         </div>
                         <ArrowRightCircle />
                     </a>
+                    {/* <a
+                        href="https://chainlist.org/?search=REI%20Chain"
+                        target="_blank"
+                        rel="noreferrer"
+                        title="Add REI Chain on Chainlist.org"
+                        className="rei-button -outlined _bgcl-warning-100-hover _dp-f _jtfct-spbtw _pdv-12px _pdh-16px _mnw-256px _mnw-320px-sm"
+                        style={{ backgroundColor: 'rgba(255, 253, 231, 1)' }}
+                    >
+                        <div className="_dp-f _fdrt-cl _tal-l _alit-st _mgr-24px">
+                            <span className="_fw-700 _fs-400 _fs-500-sm _mgbt-8px">
+                                Chainlist
+                            </span>
+                            <span className="_fw-400 _fs-200 _fs-300-sm">
+                                Add REI Chain
+                            </span>
+                        </div>
+                        <ArrowRightCircle />
+                    </a> */}
                 </div>
             </div>
             <div

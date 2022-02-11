@@ -40,12 +40,28 @@ export const HeaderLinks = () => {
 
     return (
         <>
-            <div className="_dp-f _fdrt-cl _fdrt-r-md _pdt-64px _pdbt-12px _pdv-0px-md _mgl-at _mgr-24px-md">
+            <div className="_dp-f _fdrt-cl _fdrt-r-md _pdt-64px _pdbt-12px _pdv-0px-md _mgh-12px-md">
+                <a
+                    id="add-rei-button"
+                    href="https://chainlist.org/?search=REI%20Chain"
+                    target="_blank"
+                    rel="noreferrer"
+                    title="Add REI Chain on Chainlist.org"
+                    className="rei-button -secondary -small _pdv-8px _w-fc-md _dp-f _alit-ct _mgr-8px-md"
+                >
+                    <img
+                        src="./images/home/chainlist.png"
+                        height="18"
+                        width="18"
+                        className="_mgr-8px"
+                    />
+                    ChainList
+                </a>
                 <div
                     id="add-rei-button"
                     onClick={handleAddChain}
                     title="Add Chain"
-                    className="rei-button -outlined -small _pdv-12px _w-fc-md _dp-f _alit-ct"
+                    className="rei-button -secondary -small _pdv-8px _mgv-8px _mgv-0px-md _w-fc-md _dp-f _alit-ct"
                 >
                     <svg
                         viewBox="0 0 24 22"
@@ -170,7 +186,7 @@ export const HeaderLinks = () => {
                         : ''}
                 </div>
             </div>
-            <div className="_dp-f _pst-asl-md _l-0px _r-0px _w-fc-md _fdrt-cl _fdrt-r-md _alit-ct _mgh-at-md _fs-400 _fw-400">
+            <div className="_dp-f _pst-asl-lg _l-0px _r-0px  _w-fc-md _fdrt-cl _fdrt-r-md _alit-ct _mgh-at-md _fs-400 _fw-400">
                 <Link
                     className="rei-button -ghost _bgcl-tpr-md _bgcl-shader-hover _fw-400 _w-100pct _pd-8px-md _mgv-4px _mgh-8px"
                     style={{
@@ -191,7 +207,7 @@ export const HeaderLinks = () => {
                 >
                     Developer
                 </a>
-                <Link
+                {/* <Link
                     className="rei-button -ghost -disabled _bgcl-tpr-md _bgcl-shader-hover _fw-400 _w-100pct _pd-8px-md _mgv-4px _mgh-8px"
                     style={{
                         backgroundColor: 'rgb(255 253 242)',
@@ -202,7 +218,7 @@ export const HeaderLinks = () => {
                     <span className="_fw-300 _fs-100 _cl-text-default-3 _mgl-2px _mgt-2px">
                         (Soon)
                     </span>
-                </Link>
+                </Link> */}
                 <a
                     className="rei-button -ghost -disabled _bgcl-tpr-md _bgcl-shader-hover _fw-400 _w-100pct _pd-8px-md _mgv-4px _mgh-8px"
                     style={{
@@ -225,7 +241,7 @@ export const HeaderLinks = () => {
                         (Soon)
                     </span>
                 </a>
-            </div>
+            </div>{' '}
         </>
     )
 }
