@@ -170,10 +170,10 @@ export const Home = () => {
                 <a
                     className="rei-button _w-fc _mgh-at"
                     target="_blank"
-                    href="mailto:hello@killswitch.finance?subject=Submit Project on REI Chain"
+                    href="https://q4cgscoyhne.typeform.com/to/VcKMbwm4"
                     rel="noreferrer"
                 >
-                    SUBMIT YOUR PROJECT
+                    Contact Us
                 </a>
             </div>
             <input

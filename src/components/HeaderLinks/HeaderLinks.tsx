@@ -230,17 +230,6 @@ export const HeaderLinks = () => {
                         (Soon)
                     </span>
                 </a>
-                <a
-                    className="rei-button -ghost -disabled _bgcl-tpr-md _bgcl-shader-hover _fw-400 _w-100pct _pd-8px-md _mgv-4px _mgh-8px"
-                    style={{
-                        backgroundColor: 'rgb(255 253 242)',
-                    }}
-                >
-                    Enterprise
-                    <span className="_fw-300 _fs-100 _cl-text-default-3 _mgl-2px _mgt-2px">
-                        (Soon)
-                    </span>
-                </a>
             </div>{' '}
         </>
     )
