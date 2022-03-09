@@ -105,6 +105,13 @@ const LIST = [
         link: null,
         tagList: ['DApp', 'NFT', 'Game'],
     },
+    {
+        imageSrc: './images/ecosystem/list/cert-dodeep.png',
+        title: 'Dodeep`s Cert',
+        description: 'NFT Certificate DApp',
+        link: 'https://cert.dodeep.co.th/',
+        tagList: ['DApp', 'NFT'],
+    },
 ].sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))
 
 const TAG_LIST = (
