@@ -107,7 +107,7 @@ const LIST = [
     },
     {
         imageSrc: './images/ecosystem/list/cert-dodeep.png',
-        title: 'Dodeep`s Cert',
+        title: 'NFT Cert',
         description: 'NFT Certificate DApp',
         link: 'https://cert.dodeep.co.th/',
         tagList: ['DApp', 'NFT'],
