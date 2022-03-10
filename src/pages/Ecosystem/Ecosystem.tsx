@@ -106,10 +106,10 @@ const LIST = [
         tagList: ['DApp', 'NFT', 'Game'],
     },
     {
-        imageSrc: './images/ecosystem/list/cert-dodeep.png',
-        title: 'NFT Cert',
-        description: 'NFT Certificate DApp',
-        link: 'https://cert.dodeep.co.th/',
+        imageSrc: './images/ecosystem/list/dicert.png',
+        title: 'diCERT',
+        description: 'Sweetly Reliably NFT Certificates.',
+        link: 'https://www.dicert.co/',
         tagList: ['DApp', 'NFT'],
     },
 ].sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))
