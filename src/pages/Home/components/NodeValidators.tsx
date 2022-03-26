@@ -5,19 +5,21 @@ import type { Container } from 'tsparticles'
 
 const LIST = [
     {
+        imageSrc: './images/home/validator-node/arken.svg',
+        title: 'Arken',
+        link: 'https://arken.finance/',
+        className: '_pdh-12px',
+    },
+    {
+        imageSrc: './images/home/validator-node/inspex.png',
+        title: 'Inspex',
+        link: 'https://inspex.co/',
+        className: '_pdh-24px',
+    },
+    {
         imageSrc: './images/home/validator-node/killswitch.svg',
         title: 'KillSwitch Finance',
         link: 'https://killswitch.finance/',
-        className: '',
-    },
-    {
-        imageSrc: './images/home/validator-node/soon.svg',
-        title: 'Reveal Soon',
-        className: '',
-    },
-    {
-        imageSrc: './images/home/validator-node/soon.svg',
-        title: 'Reveal Soon',
         className: '',
     },
 ]
@@ -42,7 +44,7 @@ export const NodeValidators = () => {
                 loaded={onLoadedParticles}
             />
             <div className="_fs-700 _fs-800-sm _tal-ct _mgbt-24px _bgcl-grey-10 _w-fc _mgh-at _bdrd-4px _pdh-12px _zid-1">
-                Node Validators
+                Validator Node Partnership
             </div>
             <div className="_dp-f _fw-w _fdrt-r _alit-ct _jtfct-ct _fw-w _zid-1">
                 {LIST.map((item, index) => (

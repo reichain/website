@@ -104,8 +104,7 @@ export const Top = () => {
                         target="_blank"
                         rel="noreferrer"
                         title="REI Scan"
-                        className="rei-button -outlined _bgcl-warning-100-hover _dp-f _jtfct-spbtw _pdv-12px _pdh-16px _mnw-256px _mnw-320px-sm"
-                        style={{ backgroundColor: 'rgba(255, 253, 231, 1)' }}
+                        className="rei-button -outlined _bgcl-warning-100-hover _dp-f _jtfct-spbtw _pdv-12px _pdh-16px _mnw-256px _mnw-320px-sm _bgcl-secondary-light"
                     >
                         <div className="_dp-f _fdrt-cl _tal-l _alit-st _mgr-24px">
                             <span className="_fw-700 _fs-400 _fs-500-sm _mgbt-8px">
