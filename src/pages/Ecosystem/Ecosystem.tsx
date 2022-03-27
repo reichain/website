@@ -112,6 +112,13 @@ const LIST = [
         link: 'https://www.dicert.co/',
         tagList: ['DApp', 'NFT'],
     },
+    {
+        imageSrc: './images/ecosystem/list/aurumdefi.png',
+        title: 'AurumDefi',
+        description: 'Lending Platform',
+        // link: 'https://www.aurumdefi.com/',
+        tagList: ['DApp', 'Lending'],
+    },
 ].sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))
 
 const TAG_LIST = (
