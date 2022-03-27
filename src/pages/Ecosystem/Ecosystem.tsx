@@ -115,8 +115,16 @@ const LIST = [
     {
         imageSrc: './images/ecosystem/list/aurumdefi.png',
         title: 'AurumDefi',
-        description: 'Lending Platform',
-        // link: 'https://www.aurumdefi.com/',
+        description: (
+            <>
+                Lending Platform {'\n'}Coming Soon on Mainnet.{'\n'}(
+                <span className="_cl-negative-500">
+                    Now Available on Rei Testnet
+                </span>
+                )
+            </>
+        ),
+        link: 'https://www.aurumdefi.com/',
         tagList: ['DApp', 'Lending'],
     },
 ].sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))
@@ -268,7 +276,11 @@ export const Home = () => {
                             </div>
                             <div
                                 className="card-description _wsp-pl _ffml-secondary _fs-200 _fs-300-sm _fs-400-sm _pdh-2px _pdh-8px-sm"
-                                title={item.description}
+                                title={
+                                    typeof item.description === 'string'
+                                        ? item.description
+                                        : item.title
+                                }
                             >
                                 {item.description}
                             </div>
