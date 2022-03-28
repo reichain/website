@@ -1,4 +1,4 @@
-import classNames from "classnames"
+import classNames from 'classnames'
 
 const LIST = [
     {
@@ -34,17 +34,18 @@ const LIST = [
     //     imageStyle: { width: 35 },
     //     link: '',
     // },
-    // {
-    //     title: 'Github',
-    //     imageSrc: './images/home/social/github.svg',
-    //     imageStyle: { width: 35 },
-    //     link: '',
-    // },
     {
         title: 'Twitter',
         imageSrc: './images/home/social/twitter.svg',
         imageStyle: { width: 35 },
         link: 'https://twitter.com/_REI_chain',
+    },
+    {
+        title: 'GitHub',
+        description: 'Source Code',
+        imageSrc: './images/home/social/github.svg',
+        imageStyle: { width: 35 },
+        link: 'https://github.com/reichain',
     },
 ]
 
@@ -77,7 +78,11 @@ export const Community = () => {
                                 target="_blank"
                                 rel="noreferrer"
                                 style={{ width: 80, height: 80 }}
-                                className={classNames("rei-button -outlined _pd-0px _w-128px-sm _h-128px-sm _bdcl-text-default-3 _pd-32px-sm _dp-f _fdrt-cl", item.isSoon && '-disabled')}
+                                title={item.description || item.title}
+                                className={classNames(
+                                    'rei-button -outlined _pd-0px _w-128px-sm _h-128px-sm _bdcl-text-default-3 _pd-12px-sm _dp-f _fdrt-cl',
+                                    item.isSoon && '-disabled'
+                                )}
                             >
                                 <img
                                     src={item.imageSrc}
@@ -90,6 +95,11 @@ export const Community = () => {
                                 />
                                 <div className="_ffml-secondary _fw-400 _fs-200 _fs-300-sm _dp-f _fdrt-cl _tal-ct">
                                     {item.title}
+                                    {item.description && (
+                                        <span className="_fw-200 _fs-100 _cl-text-secondary-3 _mgt-2px">
+                                            ({item.description})
+                                        </span>
+                                    )}
                                     {item.isSoon && (
                                         <span className="_fw-600 _fs-100 _cl-text-secondary-3 _mgt-2px">
                                             (Soon)
