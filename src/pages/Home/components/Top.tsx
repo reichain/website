@@ -116,26 +116,39 @@ export const Top = () => {
                         </div>
                         <ArrowRightCircle />
                     </a>
-                    {/* <a
-                        href="https://chainlist.org/?search=REI%20Chain"
-                        target="_blank"
-                        rel="noreferrer"
+                    {/* <Link
+                        // href="https://chainlist.org/?search=REI%20Chain"
+                        // target="_blank"
+                        // rel="noreferrer"
+                        to="./ecosystem"
                         title="Add REI Chain on Chainlist.org"
                         className="rei-button -outlined _bgcl-warning-100-hover _dp-f _jtfct-spbtw _pdv-12px _pdh-16px _mnw-256px _mnw-320px-sm"
                         style={{ backgroundColor: 'rgba(255, 253, 231, 1)' }}
                     >
                         <div className="_dp-f _fdrt-cl _tal-l _alit-st _mgr-24px">
                             <span className="_fw-700 _fs-400 _fs-500-sm _mgbt-8px">
-                                Chainlist
+                                Ecosystem
                             </span>
                             <span className="_fw-400 _fs-200 _fs-300-sm">
-                                Add REI Chain
+                                Decentralized
                             </span>
                         </div>
                         <ArrowRightCircle />
-                    </a> */}
+                    </Link> */}
                 </div>
             </div>
+            <a
+                // href="https://www.facebook.com/REIChain/posts/108446245135163"
+                target="_blank"
+                className="_bdcl-black _bdw-12px _w-fc _pdh-0px _mgh-at _mgt-0px _mgbt-64px _mgbt-12px-sm _zid-1"
+                style={{ maxWidth: 'min(90vw, 400px)' }}
+                rel="noreferrer"
+            >
+                <img
+                    className="_w-100pct"
+                    src="./images/home/banner/rei-connect-poster.png"
+                />
+            </a>
             <div
                 className="_dp-g-sm _pst-rlt _mgh-at _pdh-32px _pdh-64px-sm _ovfx-clp _mgbt-24px _mgbt-12px-md _mgbt-2px-lg"
                 style={{ gridTemplateColumns: '3fr 1fr', maxWidth: 1000 }}
