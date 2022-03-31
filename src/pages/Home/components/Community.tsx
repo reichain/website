@@ -1,26 +1,25 @@
 import classNames from 'classnames'
 
 const LIST = [
+    // {
+    //     title: 'TH',
+    //     imageSrc: './images/home/social/telegram.svg',
+    //     imageStyle: { width: 33 },
+    //     link: null,
+    //     isSoon: true,
+    // },
     {
-        title: 'TH',
+        title: 'Telegram',
         imageSrc: './images/home/social/telegram.svg',
         imageStyle: { width: 33 },
-        link: null,
-        isSoon: true,
-    },
-    {
-        title: 'EN',
-        imageSrc: './images/home/social/telegram.svg',
-        imageStyle: { width: 33 },
-        link: null,
-        isSoon: true,
+        link: 'https://t.me/reichain',
+        isSoon: false,
     },
     {
         title: 'Discord',
         imageSrc: './images/home/social/discord.svg',
         imageStyle: { width: 35 },
-        link: null,
-        isSoon: true,
+        link: 'https://discord.gg/jCsZnjtT9Q',
     },
     {
         title: 'Medium',

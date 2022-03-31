@@ -138,7 +138,8 @@ export const Top = () => {
                 </div>
             </div>
             <a
-                // href="https://www.facebook.com/REIChain/posts/108446245135163"
+                title="Go to Register Form"
+                href="https://forms.gle/wQHF5ayoNcCY4Wvh8"
                 target="_blank"
                 className="_bdcl-black _bdw-12px _w-fc _pdh-0px _mgh-at _mgt-0px _mgbt-64px _mgbt-64px-sm _zid-1"
                 style={{ maxWidth: 'min(90vw, 400px)' }}
