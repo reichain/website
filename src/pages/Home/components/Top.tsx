@@ -140,7 +140,7 @@ export const Top = () => {
             <a
                 // href="https://www.facebook.com/REIChain/posts/108446245135163"
                 target="_blank"
-                className="_bdcl-black _bdw-12px _w-fc _pdh-0px _mgh-at _mgt-0px _mgbt-64px _mgbt-12px-sm _zid-1"
+                className="_bdcl-black _bdw-12px _w-fc _pdh-0px _mgh-at _mgt-0px _mgbt-64px _mgbt-64px-sm _zid-1"
                 style={{ maxWidth: 'min(90vw, 400px)' }}
                 rel="noreferrer"
             >
