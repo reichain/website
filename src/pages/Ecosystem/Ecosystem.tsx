@@ -127,6 +127,13 @@ const LIST = [
         link: 'https://www.aurumdefi.com/',
         tagList: ['DApp', 'Lending'],
     },
+    {
+        imageSrc: './images/ecosystem/list/arken.svg',
+        title: 'Arken',
+        description: 'Discover your Best Swap on any coins with Charts.',
+        link: 'https://arken.finance/',
+        tagList: ['DApp', 'DEX'],
+    },
 ].sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))
 
 const TAG_LIST = (
