@@ -137,15 +137,20 @@ const LIST = [
     {
         imageSrc: './images/ecosystem/list/deeplogo.png',
         title: 'Deeplogo',
-        description: (
-            <>
-                Play your favourite games and earn token.
-                お気に入りのゲームをプレイしてトークンを獲得しましょう
-            </>
-        ),
+        description:
+            'Play your favourite games and earn token. お気に入りのゲームをプレイしてトークンを獲得しましょう',
         isComingSoon: new Date() < new Date('2022-04-24'),
         link: 'https://deeplogo.co/',
         tagList: ['DApp', 'Game', 'E-Sport'],
+    },
+    {
+        imageSrc: './images/ecosystem/list/acckenn.svg',
+        title: 'Acckenn',
+        description:
+            'We provide crypto tax and accounting services by professional accountants who understand crypto and blockchain technology. To simplify crypto tax and accounting compliance.',
+        isComingSoon: true,
+        link: 'https://acckenn.com/',
+        tagList: ['DApp', 'Accounting'],
     },
 ].sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))
 
