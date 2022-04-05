@@ -145,7 +145,7 @@ const LIST = [
         ),
         isComingSoon: new Date() < new Date('2022-04-24'),
         link: 'https://deeplogo.co/',
-        tagList: ['DApp', 'Game'],
+        tagList: ['DApp', 'Game', 'E-Sport'],
     },
 ].sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))
 
