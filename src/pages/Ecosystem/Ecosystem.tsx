@@ -134,6 +134,19 @@ const LIST = [
         link: 'https://arken.finance/',
         tagList: ['DApp', 'DEX'],
     },
+    {
+        imageSrc: './images/ecosystem/list/deeplogo.png',
+        title: 'Deeplogo',
+        description: (
+            <>
+                Play your favourite games and earn token.
+                お気に入りのゲームをプレイしてトークンを獲得しましょう
+            </>
+        ),
+        isComingSoon: new Date() < new Date('2022-04-24'),
+        link: 'https://deeplogo.co/',
+        tagList: ['DApp', 'Game'],
+    },
 ].sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))
 
 const TAG_LIST = (
@@ -316,6 +329,11 @@ export const Home = () => {
                                             fill="black"
                                         />
                                     </svg>
+                                    {item.isComingSoon && (
+                                        <span className="_cl-negative-500 _mgl-12px">
+                                            (Coming Soon)
+                                        </span>
+                                    )}
                                 </>
                             ) : (
                                 <span className="_cl-text-secondary-3">
