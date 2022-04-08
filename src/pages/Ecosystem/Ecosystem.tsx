@@ -167,7 +167,7 @@ const LIST = [
         description: 'Make education more fun with VR and Blockchain.',
         isComingSoon: true,
         link: 'http://metaschool.town',
-        tagList: ['DApp', 'Education', 'VR'],
+        tagList: ['DApp', 'Education', 'VR', 'Metaverse'],
     },
 ].sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))
 
