@@ -152,6 +152,15 @@ const LIST = [
         link: 'https://acckenn.com/',
         tagList: ['DApp', 'Accounting'],
     },
+    {
+        imageSrc: './images/ecosystem/list/nftgt.png',
+        title: 'NFTGT',
+        description:
+            'A unique nft marketplace with advanced market functionality. NFT assets can be tokenized, fractionalized, and collaterized, creating new investment opportunities.',
+        isComingSoon: true,
+        link: 'https://nftgt.net',
+        tagList: ['DApp', 'NFT'],
+    },
 ].sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))
 
 const TAG_LIST = (
