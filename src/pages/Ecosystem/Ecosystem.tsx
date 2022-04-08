@@ -161,6 +161,14 @@ const LIST = [
         link: 'https://nftgt.net',
         tagList: ['DApp', 'NFT'],
     },
+    {
+        imageSrc: './images/ecosystem/list/metaschool.png',
+        title: 'MetaSchool',
+        description: 'Make education more fun with VR and Blockchain.',
+        isComingSoon: true,
+        link: 'http://metaschool.town',
+        tagList: ['DApp', 'Education', 'VR'],
+    },
 ].sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))
 
 const TAG_LIST = (
