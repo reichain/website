@@ -169,6 +169,22 @@ const LIST = [
         link: 'http://metaschool.town',
         tagList: ['DApp', 'Education', 'VR', 'Metaverse'],
     },
+    {
+        imageSrc: './images/ecosystem/list/buddybeater.jpg',
+        title: 'Buddy Beater',
+        description: (
+            <>
+                <span className="_cl-negative-500">
+                    (Run-on Ethereum; Token can bridge to Rei Soon!)
+                </span>{' '}
+                2D Real-time multiplayer Battle royale on ETH that can play with
+                your friends.
+            </>
+        ),
+        isComingSoon: true,
+        link: 'https://buddybeater.io/',
+        tagList: ['DApp', 'NFT', 'Game'],
+    },
 ].sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))
 
 const TAG_LIST = (
