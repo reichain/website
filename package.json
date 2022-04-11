@@ -39,6 +39,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "dev": "yarn start",
     "build": "BUILD_PATH='./dist' react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
