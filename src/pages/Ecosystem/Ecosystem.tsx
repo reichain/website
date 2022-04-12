@@ -183,6 +183,15 @@ const LIST = [
         link: 'https://buddybeater.io/',
         tagList: ['DApp', 'NFT', 'Game'],
     },
+    {
+        imageSrc: './images/ecosystem/list/avantis.svg',
+        title: 'Avantis Protocol',
+        description:
+            'DeFi multi-asset trading platform. Invest in global assets via a single state-of-the-art investment platform',
+        isComingSoon: true,
+        link: 'https://avantis.finance/',
+        tagList: ['DApp', 'Real-Asset'],
+    },
 ].sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))
 
 const TAG_LIST = (
