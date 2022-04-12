@@ -375,8 +375,14 @@ export const Home = () => {
                                         />
                                     </svg>
                                     {item.isComingSoon && (
-                                        <span className="_cl-negative-500 _mgl-12px">
-                                            (Coming Soon)
+                                        <span className="_cl-negative-500 _mgl-16px _mgl-12px-sm _lh-130pct">
+                                            <span className="_dp-n _dp-il-sm">
+                                                (
+                                            </span>
+                                            Coming Soon
+                                            <span className="_dp-n _dp-il-sm">
+                                                )
+                                            </span>
                                         </span>
                                     )}
                                 </>
