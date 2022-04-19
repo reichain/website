@@ -36,7 +36,7 @@ export default function CustomDropdown(props: CustomDropDownProps) {
         }
     }
 
-    const handleClose = (event: React.MouseEvent<Document>) => {
+    const handleClose = (event: React.MouseEvent<any>) => {
         if (anchorEl && anchorEl.contains(event.target as Node)) {
             return
         }
@@ -112,10 +112,10 @@ export default function CustomDropdown(props: CustomDropDownProps) {
         </MenuList>
     )
     return (
-        <div>
-            <div>
+        <div className=" _w-100pct">
+            <div className=" _w-100pct">
                 {Button ? (
-                    <Button onClick={handleClick} />
+                    <Button onMouseOver={handleClick} />
                 ) : (
                     <button
                         aria-label="Notifications"
@@ -151,7 +151,10 @@ export default function CustomDropdown(props: CustomDropDownProps) {
                                 : { transformOrigin: '0 0 0' }
                         }
                     >
-                        <div className="rei-card _bdw-0px">
+                        <div
+                            className="rei-card _bdw-0px"
+                            onMouseLeave={handleClose}
+                        >
                             {innerDropDown ? (
                                 dropDownMenu
                             ) : (

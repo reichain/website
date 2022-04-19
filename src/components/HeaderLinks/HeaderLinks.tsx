@@ -221,22 +221,22 @@ export const HeaderLinks = () => {
                     </span>
                 </Link> */}
                 <CustomDropdown
-                    Button={({ onClick }) => (
+                    Button={({ onMouseOver }) => (
                         <button
-                            className="rei-button -ghost _bgcl-tpr-md _bgcl-shader-hover _fw-400 _w-100pct _pd-8px-md _mgv-4px _mgh-8px"
+                            className="rei-button -ghost _bgcl-tpr-md _bgcl-shader-hover _fw-400 _w-100pct _pd-8px-md _mgv-4px _mgh-8px-md"
                             style={{
                                 backgroundColor: 'rgb(255 253 242)',
                             }}
-                            onClick={onClick}
+                            onMouseOver={onMouseOver}
+                            onClick={onMouseOver}
                         >
                             Utility
                         </button>
                     )}
-                    caret={true}
                     dropdownList={[
                         <a
                             key="1"
-                            className="rei-button -ghost _bgcl-tpr-md _bgcl-shader-hover _fw-400 _w-100pct _pdv-12px-md _pdh-24px-md"
+                            className="rei-button -ghost -small _bgcl-tpr-md _bgcl-shader-hover _fw-400 _w-100pct _pdv-2px _pdh-24px _pdv-16px-md _pdh-24px-md"
                             style={{
                                 backgroundColor: 'rgb(255 253 242)',
                             }}
