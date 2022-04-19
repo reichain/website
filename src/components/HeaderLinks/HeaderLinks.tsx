@@ -1,3 +1,4 @@
+import CustomDropdown from 'components/CustomDropdown/CustomDropdown'
 import { useCallback, useState } from 'react'
 import { Link } from 'react-router-dom'
 
@@ -219,6 +220,32 @@ export const HeaderLinks = () => {
                         (Soon)
                     </span>
                 </Link> */}
+                <CustomDropdown
+                    Button={({ onClick }) => (
+                        <button
+                            className="rei-button -ghost _bgcl-tpr-md _bgcl-shader-hover _fw-400 _w-100pct _pd-8px-md _mgv-4px _mgh-8px"
+                            style={{
+                                backgroundColor: 'rgb(255 253 242)',
+                            }}
+                            onClick={onClick}
+                        >
+                            Utility
+                        </button>
+                    )}
+                    caret={true}
+                    dropdownList={[
+                        <a
+                            key="1"
+                            className="rei-button -ghost _bgcl-tpr-md _bgcl-shader-hover _fw-400 _w-100pct _pdv-12px-md _pdh-24px-md"
+                            style={{
+                                backgroundColor: 'rgb(255 253 242)',
+                            }}
+                            href="https://airdrop.reichain.io"
+                        >
+                            Airdrop
+                        </a>,
+                    ]}
+                />
                 <a
                     className="rei-button -ghost -disabled _bgcl-tpr-md _bgcl-shader-hover _fw-400 _w-100pct _pd-8px-md _mgv-4px _mgh-8px"
                     style={{
