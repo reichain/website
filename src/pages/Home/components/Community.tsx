@@ -1,15 +1,14 @@
 import classNames from 'classnames'
 
 const LIST = [
-    // {
-    //     title: 'TH',
-    //     imageSrc: './images/home/social/telegram.svg',
-    //     imageStyle: { width: 33 },
-    //     link: null,
-    //     isSoon: true,
-    // },
     {
-        title: 'Telegram',
+        title: 'EN',
+        imageSrc: './images/home/social/telegram.svg',
+        imageStyle: { width: 33 },
+        link: 'https://t.me/reichainglobal',
+    },
+    {
+        title: 'TH',
         imageSrc: './images/home/social/telegram.svg',
         imageStyle: { width: 33 },
         link: 'https://t.me/reichain',
