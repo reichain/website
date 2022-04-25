@@ -2,6 +2,7 @@ import classNames from 'classnames'
 import { useCallback, useState } from 'react'
 import Particles from 'react-tsparticles'
 import type { Container } from 'tsparticles'
+import Disclaimer from './components/Disclaimer/Disclaimer'
 import './styles.scss'
 
 const LIST = [
@@ -229,6 +230,7 @@ export const Home = () => {
                 paddingTop: 'var(--header-height)',
             }}
         >
+            <Disclaimer />
             <div className="_pst-rlt _zid-1 _tal-ct _mgt-24px _pdbt-32px">
                 <img
                     src="./images/ecosystem/echosystem-wave.svg"

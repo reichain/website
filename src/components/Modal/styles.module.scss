@@ -1,0 +1,51 @@
+@import "src/styles/layout/config.scss";
+
+.closeButton {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.modalOverlay {
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  inset: 0px;
+  background: var(--modal-overlay-background);
+  box-shadow: var(--modal-overlay-box-shadow);
+}
+
+.modalContent {
+  background: var(--modal-content-background);
+  border-radius: 24px;
+  position: absolute;
+  border: var(--modal-content-border);
+  overflow: auto;
+  outline: none;
+
+  inset: 0;
+  top: var(--header-height);
+  left: var(--sidebar-width);
+  min-height: 453px;
+  min-width: 563px;
+  max-width: calc(min(90vw, 850px));
+  max-height: 70vh;
+  height: max-content;
+  width: fit-content;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 56px 80px;
+  @media screen and (max-width: $xs) {
+    max-height: 75vh;
+    min-width: initial;
+    padding: 56px 10vw;
+  }
+}

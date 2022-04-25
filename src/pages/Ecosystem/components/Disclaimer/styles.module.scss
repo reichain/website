@@ -1,0 +1,31 @@
+@import "src/styles/layout/config.scss";
+
+.container {
+  display: flex;
+  align-items: flex-start !important;
+  justify-content: flex-start;
+  list-style-type: disc;
+  line-height: 1.5;
+  padding: 40px 50px;
+
+  @media screen and (max-width: $xs) {
+    max-width: 95vw;
+    width: 95vw;
+    padding: 30px 30px;
+  }
+  
+  @media screen and (max-width: $lg) {
+    max-width: 800px;
+    padding: 50px 30px;
+  }
+
+  li {
+    text-indent: -1em;
+    padding-left: 2em;
+  }
+
+  button {
+    white-space: nowrap;
+    height: fit-content;
+  }
+}
