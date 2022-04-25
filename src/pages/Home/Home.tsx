@@ -2,11 +2,11 @@ import Community from './components/Community'
 import Developer from './components/Developer'
 import Journey from './components/Journey'
 import LearnMore from './components/LearnMore'
-import Subscribe from './components/Subscribe'
+import MediaPartner from './components/MediaPartner'
+import ValidatorNode from './components/NodeValidators'
 import SyntheticWorld from './components/SyntheticWorld'
 import Tokenomic from './components/Tokenomic'
 import Top from './components/Top'
-import ValidatorNode from './components/NodeValidators'
 import WhatsNew from './components/WhatsNew/WhatsNew'
 import WhyRei from './components/WhyRei'
 import './styles.scss'
@@ -17,6 +17,7 @@ export const Home = () => {
             <Top />
             <WhyRei />
             <ValidatorNode />
+            <MediaPartner />
             <SyntheticWorld />
             <Developer />
             <Tokenomic />
