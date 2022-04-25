@@ -11,12 +11,32 @@ const LIST = [
         imageSrc: './images/home/media-partner/cryptoqueenth.png',
         title: 'Crypto Queen',
         link: 'https://web.facebook.com/Cryptoqueenth',
-        className: '',
+        className: '_pdv-0px _mgv-0px',
+        containerClassName: '_pdv-8px',
     },
     {
         imageSrc: './images/home/media-partner/stockerday.png',
         title: 'Stocker Day',
         link: 'https://web.facebook.com/stockerday/',
+        className: '',
+    },
+    {
+        imageSrc: './images/home/media-partner/cat-money-thailand.png',
+        title: 'Cat Money Thailand',
+        link: 'https://web.facebook.com/CatMoneyThailand',
+        className: '',
+    },
+    {
+        imageSrc: './images/home/media-partner/i-learn-a-lot-about-bitcoin.png',
+        title: 'I Learn A Lot About Bitcoin',
+        link: 'https://web.facebook.com/ILearnALotAboutBitcoin',
+        className: '',
+        containerClassName: '_pdv-4px',
+    },
+    {
+        imageSrc: './images/home/media-partner/siamblockchain.png',
+        title: 'Siam Blockchain',
+        link: 'https://web.facebook.com/siamblockchain',
         className: '',
     },
     {
@@ -49,9 +69,13 @@ export const MediaPartner = () => {
                     {LIST.map((item, index) => (
                         <a
                             key={index}
-                            style={{ height: 90, width: 220 }}
+                            style={{ height: 90, width: 220, 
+                                padding: '12px 16px' }}
                             href={item.link || undefined}
-                            className="rei-button -outlined _ptev-at _mgh-8px _mgh-16px-sm _mgv-8px _mgv-16px-sm _pdh-16px _pdv-12px _pd-16px-sm"
+                            className={classNames(
+                                item.containerClassName,
+                                "rei-button -outlined _ptev-at _mgh-8px _mgh-16px-sm _mgv-8px _mgv-16px-sm"
+                            )}
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -60,8 +84,9 @@ export const MediaPartner = () => {
                                 alt={item.title}
                                 className={classNames(
                                     item.className,
-                                    '_w-100pct _h-100pct _ojf-ct _bgcl-white _mg-8px _bdrd-4px'
+                                    '_w-100pct _h-100pct _ojf-ct _bgcl-white _bdrd-4px'
                                 )}
+                                style={{ margin: 8 }}
                                 title={item.title}
                             />
                         </a>
