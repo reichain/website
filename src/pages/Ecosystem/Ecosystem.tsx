@@ -75,6 +75,7 @@ const LIST = [
         description: 'Crowd Driven GameFi sponsored by KillSwitch',
         link: 'https://alpha.reamverse.io/',
         tagList: ['DApp', 'NFT', 'Game'],
+        isComingSoon: true,
     },
     {
         imageSrc: './images/ecosystem/list/loremboard.png',
