@@ -21,7 +21,7 @@ const LIST = [
         className: '',
     },
     {
-        imageSrc: './images/home/media-partner/cat-money-thailand.png',
+        imageSrc: './images/home/media-partner/cat-money-thailand.jpg',
         title: 'Cat Money Thailand',
         link: 'https://web.facebook.com/CatMoneyThailand',
         className: '',
