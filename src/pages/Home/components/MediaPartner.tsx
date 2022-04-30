@@ -51,11 +51,21 @@ const LIST = [
         link: 'https://web.facebook.com/newtodefi',
         className: '',
     },
+    {
+        imageSrc: './images/home/media-partner/jolden-crypto.png',
+        title: 'Jolden Crypto',
+        link: 'https://www.facebook.com/JoldenCrypto',
+        className: '',
+        containerClassName: '_pdv-4px',
+    },
 ]
 
 export const MediaPartner = () => {
     return (
-        <div className="_ptev-n _pst-rlt _ovf-hd _dp-g-sm _ovfx-clp _cl-primary-main _bdbtw-1px _bdcl-grey-20" style={{background: 'rgb(255, 253, 231)'}}>
+        <div
+            className="_ptev-n _pst-rlt _ovf-hd _dp-g-sm _ovfx-clp _cl-primary-main _bdbtw-1px _bdcl-grey-20"
+            style={{ background: 'rgb(255, 253, 231)' }}
+        >
             {/* <img
                 src="./images/ecosystem/echosystem-wave.svg"
                 className="_pst-asl _t-0px _l-0px _r-0px _w-100pct-sm _tf-n-sm _zid--2"
@@ -69,12 +79,15 @@ export const MediaPartner = () => {
                     {LIST.map((item, index) => (
                         <a
                             key={index}
-                            style={{ height: 90, width: 220, 
-                                padding: '12px 16px' }}
+                            style={{
+                                height: 90,
+                                width: 220,
+                                padding: '12px 16px',
+                            }}
                             href={item.link || undefined}
                             className={classNames(
                                 item.containerClassName,
-                                "rei-button -outlined _ptev-at _mgh-8px _mgh-16px-sm _mgv-8px _mgv-16px-sm"
+                                'rei-button -outlined _ptev-at _mgh-8px _mgh-16px-sm _mgv-8px _mgv-16px-sm'
                             )}
                             target="_blank"
                             rel="noreferrer"
