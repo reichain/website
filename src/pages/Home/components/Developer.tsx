@@ -25,7 +25,7 @@ export const Developer = () => {
                 Developer
             </div>
             <div className="_ffml-secondary _fs-300 _fs-400-sm _cl-text-default-3 _tal-ct _mgbt-24px _mgbt-32px-sm">
-                REI Chain delivers unparalleied speed,security and reliability
+                REI Chain delivers unparalleied speed, security and reliability
                 Enjoy almost instant transactions and extremely low fee.
             </div>
             <div
