@@ -2,12 +2,12 @@ const LIST = [
     {
         title: 'EVM Compatible',
         description:
-            'REI is forked from ETH -a trusted blockchain that will allow Industry dominance, established tech stack, tools, languages, standards and enterprise adoption.',
+            'REI is forked from ETH -a trusted blockchain that will allow Industry dominance, established tech stack, tools, languages, standards, and enterprise adoption.',
     },
     {
         title: 'Storage Friendly',
         description:
-            'REI chain is a self-sovereign blockchain, it does not mint blocks without transactions, making transactions fast and allowing effective long term storage.',
+            'REI chain is a self-sovereign blockchain, it does not mint blocks without transactions, making transactions fast and allowing effective long-term storage.',
     },
 ]
 
@@ -25,8 +25,9 @@ export const Developer = () => {
                 Developer
             </div>
             <div className="_ffml-secondary _fs-300 _fs-400-sm _cl-text-default-3 _tal-ct _mgbt-24px _mgbt-32px-sm">
-                REI Chain delivers unparalleied speed, security and reliability
-                Enjoy almost instant transactions and extremely low fee.
+                REI Chain delivers unparalleled speed, security, and
+                reliability. Enjoy almost instant transactions and an extremely
+                low fee.
             </div>
             <div
                 className="_bdcl-primary-light _bdw-2px _bdrd-8px _ovf-hd _mgh-at"

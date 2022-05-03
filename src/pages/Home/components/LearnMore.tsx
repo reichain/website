@@ -37,7 +37,7 @@ export const LearnMore = () => {
                             </div>
                             <div className="_fs-300 _fs-400-sm _mgbt-16px _mgbt-24px-sm">
                                 Discover how REI Chain works and you can
-                                interact with ecosystem.
+                                interact with the ecosystem.
                             </div>
                             <a
                                 className="rei-button -secondary -disabled _w-fc _mnh-32px _pdh-48px _pdv-12px _pdv-12px-sm _pdh-48px-sm _zid-2"
@@ -64,7 +64,7 @@ export const LearnMore = () => {
                             </div>
                             <div className="_fs-300 _fs-400-sm _mgbt-16px _mgbt-24px-sm">
                                 Discover how REI Chain works and you can
-                                interact with ecosystem.
+                                interact with the ecosystem.
                             </div>
                             <div
                                 className="rei-button -secondary -disabled _w-fc _mnh-32px _pdh-48px _pdv-12px _pdv-12px-sm _pdh-48px-sm _zid-2"
@@ -93,7 +93,7 @@ export const LearnMore = () => {
                                 Build on REI Chain
                             </div>
                             <div className="_fs-300 _fs-400-sm _mgbt-16px _mgbt-24px-sm">
-                                Build brand new apps and protocals or contribute
+                                Build brand new apps and protocols or contribute
                                 to existing REI chain codebase.
                             </div>
                             <div className="rei-button -secondary -disabled _w-fc _mnh-32px _pdh-48px _pdv-12px _pdv-12px-sm _pdh-48px-sm _zid-2">

@@ -4,18 +4,18 @@ const LIST = [
     {
         title: 'Q1-2/ 2022',
         bulletList: [
-            'Expand REI Coin Utilities to physical world ',
-            'Scale and Partner with Thai corporates',
+            'Expand REI Coin Utilities to physical world.',
+            'Scale and Partner with Thai corporates.',
         ],
     },
     {
         title: 'Q3-4/ 2022',
         bulletList: [
-            'Develop REI Chain',
-            'Secure node validator partners',
-            'Publish REI Chain Lightpaper',
-            'Distribute REI token to the general public',
-            'Launch Reamverse; NFT game project',
+            'Develop REI Chain.',
+            'Secure node validator partners.',
+            'Publish REI Chain Lightpaper.',
+            'Distribute REI token to the general public.',
+            'Launch Reamverse; NFT game project.',
         ],
     },
 ]
