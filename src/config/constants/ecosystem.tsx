@@ -187,6 +187,14 @@ export const LIST = [
         link: 'https://avantis.finance/',
         tagList: ['DApp', 'Real-Asset'],
     },
+    {
+        imageSrc: './images/ecosystem/list/eternite.jpg',
+        title: 'Eternite Technovation',
+        description:
+            'EVO Mining Service. With our service, everyone can mine cryptocurrency and earn Bitcoin. Invest by using your own GPUs. Profit sharing model, limited contract period with renewal option. Transparency business model.',
+        link: 'https://eternite.tech/',
+        tagList: ['NFT', 'Mining'],
+    },
 ].sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))
 
 export const TAG_LIST = (
