@@ -195,6 +195,14 @@ export const LIST = [
         link: 'https://eternite.tech/',
         tagList: ['NFT', 'Mining'],
     },
+    {
+        imageSrc: './images/ecosystem/list/landus.png',
+        title: 'Landus',
+        description:
+            'A virtual world platform. A user in Landus can create, experience, and monetized content which will be viewable on a web that is running on the blockchain.',
+        link: ' http://www.landus.io/',
+        tagList: ['DApp', 'Metaverse'],
+    },
 ].sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))
 
 export const TAG_LIST = (
