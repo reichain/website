@@ -120,7 +120,7 @@ export const Top = () => {
                         // href="https://chainlist.org/?search=REI%20Chain"
                         // target="_blank"
                         // rel="noreferrer"
-                        to="./ecosystem"
+                        to="/ecosystem"
                         title="Add REI Chain on Chainlist.org"
                         className="rei-button -outlined _bgcl-warning-100-hover _dp-f _jtfct-spbtw _pdv-12px _pdh-16px _mnw-256px _mnw-320px-sm"
                         style={{ backgroundColor: 'rgba(255, 253, 231, 1)' }}
@@ -147,7 +147,7 @@ export const Top = () => {
             >
                 <img
                     className="_w-100pct"
-                    src="./images/home/banner/rei-connect-poster.png"
+                    src="/images/home/banner/rei-connect-poster.png"
                 />
             </a>
             <div

@@ -2,7 +2,7 @@ import CircleSpiner from 'components/CircleSpiner/CircleSpiner'
 
 const LIST = [
     {
-        imageSrc: './images/home/why-rei-chain/instant-transaction.png',
+        imageSrc: '/images/home/why-rei-chain/instant-transaction.png',
         title: 'Instant transaction',
         description:
             'As a single validator node, decision-making is made almost instantly.',
@@ -13,14 +13,14 @@ const LIST = [
         },
     },
     {
-        imageSrc: './images/home/why-rei-chain/low-gas-fee.png',
+        imageSrc: '/images/home/why-rei-chain/low-gas-fee.png',
         title: 'Low gas fee',
         description:
             'One of REI’s special traits: is affordable and uniquely low gas fee due to the adoption of a private blockchain.',
         className: '_w-50pct _ojf-ct _h-128px-sm',
     },
     {
-        imageSrc: './images/home/why-rei-chain/customer-centric.png',
+        imageSrc: '/images/home/why-rei-chain/customer-centric.png',
         title: 'Customer Centric ',
         description:
             '“Empathy at heart” understanding needs from both Developers’ side and Users’ side to establish a friendly community.',
@@ -28,7 +28,7 @@ const LIST = [
         imageStyle: { width: '70%', objectPosition: 'bottom' },
     },
     {
-        imageSrc: './images/home/why-rei-chain/scalability.png',
+        imageSrc: '/images/home/why-rei-chain/scalability.png',
         title: 'Scalability',
         description:
             'REI chain uses Quorum, which is forked and derived from Ethereum that improves performance, security at all times, and fast transaction due to being a single validator node.',

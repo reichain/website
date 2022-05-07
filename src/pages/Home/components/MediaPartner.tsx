@@ -2,57 +2,57 @@ import classNames from 'classnames'
 
 const LIST = [
     {
-        imageSrc: './images/home/media-partner/bitcast.png',
+        imageSrc: '/images/home/media-partner/bitcast.png',
         title: 'Bitcast',
         link: 'https://web.facebook.com/thaibitcast',
         className: '',
     },
     {
-        imageSrc: './images/home/media-partner/cryptoqueenth.png',
+        imageSrc: '/images/home/media-partner/cryptoqueenth.png',
         title: 'Crypto Queen',
         link: 'https://web.facebook.com/Cryptoqueenth',
         className: '_pdv-0px _mgv-0px',
         containerClassName: '_pdv-8px',
     },
     {
-        imageSrc: './images/home/media-partner/stockerday.png',
+        imageSrc: '/images/home/media-partner/stockerday.png',
         title: 'Stocker Day',
         link: 'https://web.facebook.com/stockerday/',
         className: '',
     },
     {
-        imageSrc: './images/home/media-partner/cat-money-thailand.jpg',
+        imageSrc: '/images/home/media-partner/cat-money-thailand.jpg',
         title: 'Cat Money Thailand',
         link: 'https://web.facebook.com/CatMoneyThailand',
         className: '',
     },
     {
-        imageSrc: './images/home/media-partner/i-learn-a-lot-about-bitcoin.png',
+        imageSrc: '/images/home/media-partner/i-learn-a-lot-about-bitcoin.png',
         title: 'I Learn A Lot About Bitcoin',
         link: 'https://web.facebook.com/ILearnALotAboutBitcoin',
         className: '',
         containerClassName: '_pdv-4px',
     },
     {
-        imageSrc: './images/home/media-partner/siamblockchain.png',
+        imageSrc: '/images/home/media-partner/siamblockchain.png',
         title: 'Siam Blockchain',
         link: 'https://web.facebook.com/siamblockchain',
         className: '',
     },
     {
-        imageSrc: './images/home/media-partner/fatcatinvestors.png',
+        imageSrc: '/images/home/media-partner/fatcatinvestors.png',
         title: 'Fatcat Investors',
         link: 'https://web.facebook.com/FatcatInvestors/',
         className: '',
     },
     {
-        imageSrc: './images/home/media-partner/newtodefi.png',
+        imageSrc: '/images/home/media-partner/newtodefi.png',
         title: 'มือใหม่หัด DeFi',
         link: 'https://web.facebook.com/newtodefi',
         className: '',
     },
     {
-        imageSrc: './images/home/media-partner/jolden-crypto.png',
+        imageSrc: '/images/home/media-partner/jolden-crypto.png',
         title: 'Jolden Crypto',
         link: 'https://www.facebook.com/JoldenCrypto',
         className: '',
@@ -67,7 +67,7 @@ export const MediaPartner = () => {
             style={{ background: 'rgb(255, 253, 231)' }}
         >
             {/* <img
-                src="./images/ecosystem/echosystem-wave.svg"
+                src="/images/ecosystem/echosystem-wave.svg"
                 className="_pst-asl _t-0px _l-0px _r-0px _w-100pct-sm _tf-n-sm _zid--2"
                 style={{ transform: 'translate(-50%, 0)' }}
             /> */}

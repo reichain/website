@@ -5,19 +5,19 @@ import type { Container } from 'tsparticles'
 
 const LIST = [
     {
-        imageSrc: './images/home/validator-node/arken.svg',
+        imageSrc: '/images/home/validator-node/arken.svg',
         title: 'Arken',
         link: 'https://arken.finance/',
         className: '_pdh-12px',
     },
     {
-        imageSrc: './images/home/validator-node/inspex.png',
+        imageSrc: '/images/home/validator-node/inspex.png',
         title: 'Inspex',
         link: 'https://inspex.co/',
         className: '_pdh-24px',
     },
     {
-        imageSrc: './images/home/validator-node/killswitch.svg',
+        imageSrc: '/images/home/validator-node/killswitch.svg',
         title: 'KillSwitch Finance',
         link: 'https://killswitch.finance/',
         className: '',
@@ -38,7 +38,7 @@ export const NodeValidators = () => {
     return (
         <div className="_ptev-n _pst-rlt _ovf-hd _dp-g-sm _ovfx-clp _cl-primary-main">
             <img
-                src="./images/ecosystem/echosystem-wave.svg"
+                src="/images/ecosystem/echosystem-wave.svg"
                 className="_pst-asl _t-0px _l-0px _r-0px _w-100pct-sm _tf-n-sm _zid--2"
                 style={{ transform: 'translate(-50%, 0)' }}
             />
@@ -46,7 +46,7 @@ export const NodeValidators = () => {
                 <Particles
                     canvasClassName="_pst-asl _zid--1"
                     style={{ position: 'absolute' }}
-                    url="./images/home/validator-node/particlesjs-config.json"
+                    url="/images/home/validator-node/particlesjs-config.json"
                     loaded={onLoadedParticles}
                 />
                 <div className="_pst-rlt _fs-700 _fs-800-sm _tal-ct _mgbt-24px _bgcl-grey-20 _w-fc _mgh-at _bdrd-4px _pdh-12px _zid-2">

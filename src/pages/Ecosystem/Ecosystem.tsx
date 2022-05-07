@@ -35,14 +35,14 @@ export const Home = () => {
             <Disclaimer />
             <div className="_pst-rlt _zid-1 _tal-ct _mgt-24px _pdbt-32px">
                 <img
-                    src="./images/ecosystem/echosystem-wave.svg"
+                    src="/images/ecosystem/echosystem-wave.svg"
                     className="_pst-asl _t-0px _l-0px _r-0px _w-100pct-sm _tf-n-sm _zid--2"
                     style={{ transform: 'translate(-50%, 0)' }}
                 />
                 <Particles
                     canvasClassName="_pst-asl _zid--1"
                     style={{ position: 'absolute' }}
-                    url="./images/ecosystem/particlesjs-config.json"
+                    url="/images/ecosystem/particlesjs-config.json"
                     loaded={onLoadedParticles}
                 />
                 <div
@@ -73,7 +73,7 @@ export const Home = () => {
                     border: '1px solid rgba(196, 196, 196, 1)',
                     color: 'rgba(98, 98, 98, 1)',
                     backgroundColor: 'rgba(255,255,255, 0.97)',
-                    backgroundImage: "url('./images/ecosystem/search.svg')",
+                    backgroundImage: "url('/images/ecosystem/search.svg')",
                     backgroundPosition: '10px 5px',
                     backgroundRepeat: 'no-repeat',
                     minWidth: 'min(350px, 90vw)',
