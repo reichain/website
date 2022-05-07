@@ -202,6 +202,7 @@ export const LIST = [
             'A virtual world platform. A user in Landus can create, experience, and monetized content which will be viewable on a web that is running on the blockchain.',
         link: ' http://www.landus.io/',
         tagList: ['DApp', 'Metaverse'],
+        isComingSoon: true,
     },
 ].sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))
 
