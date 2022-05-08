@@ -127,7 +127,7 @@ export const LIST = [
         title: 'Arken',
         description: 'Discover your Best Swap on any coins with Charts.',
         link: 'https://arken.finance/',
-        tagList: ['DApp', 'DEX'],
+        tagList: ['DApp', 'DEX', 'Visualizer'],
     },
     {
         imageSrc: './images/ecosystem/list/deeplogo.png',
