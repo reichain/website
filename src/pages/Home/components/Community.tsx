@@ -3,45 +3,45 @@ import classNames from 'classnames'
 const LIST = [
     {
         title: 'EN',
-        imageSrc: './images/home/social/telegram.svg',
+        imageSrc: '/images/home/social/telegram.svg',
         imageStyle: { width: 33 },
         link: 'https://t.me/reichainglobal',
     },
     {
         title: 'TH',
-        imageSrc: './images/home/social/telegram.svg',
+        imageSrc: '/images/home/social/telegram.svg',
         imageStyle: { width: 33 },
         link: 'https://t.me/reichain',
         isSoon: false,
     },
     {
         title: 'Discord',
-        imageSrc: './images/home/social/discord.svg',
+        imageSrc: '/images/home/social/discord.svg',
         imageStyle: { width: 35 },
         link: 'https://discord.gg/jCsZnjtT9Q',
     },
     {
         title: 'Medium',
-        imageSrc: './images/home/social/medium.svg',
+        imageSrc: '/images/home/social/medium.svg',
         imageStyle: { width: 30 },
         link: 'https://medium.com/rei-chain',
     },
     // {
     //     title: 'Youtube',
-    //     imageSrc: './images/home/social/youtube.svg',
+    //     imageSrc: '/images/home/social/youtube.svg',
     //     imageStyle: { width: 35 },
     //     link: '',
     // },
     {
         title: 'Twitter',
-        imageSrc: './images/home/social/twitter.svg',
+        imageSrc: '/images/home/social/twitter.svg',
         imageStyle: { width: 35 },
         link: 'https://twitter.com/_REI_chain',
     },
     {
         title: 'GitHub',
         description: 'Source Code',
-        imageSrc: './images/home/social/github.svg',
+        imageSrc: '/images/home/social/github.svg',
         imageStyle: { width: 35 },
         link: 'https://github.com/reichain',
     },
@@ -111,7 +111,7 @@ export const Community = () => {
                 <div className="_w-100pct _mgl-0px _mgl-32px-sm _mgl-64px-md _mgt-16px _mgt-at-sm _pdh-32px _pdh-0px-sm">
                     <img
                         className="_mxh-256px _mxh-us-sm _ojf-ct _w-100pct"
-                        src="./images/home/join/community-tower.png"
+                        src="/images/home/join/community-tower.png"
                     />
                 </div>
             </div>

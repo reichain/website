@@ -89,10 +89,10 @@ export const getChainLogo = (chainId: number) => {
     switch (chainId) {
         case CHAIN.BSC:
         case CHAIN.BSC_FORK:
-            return './images/chains/binance.svg'
+            return '/images/chains/binance.svg'
         case CHAIN.POLYGON:
         case CHAIN.POLYGON_FORK:
-            return './images/chains/polygon.svg'
+            return '/images/chains/polygon.svg'
         default:
             break
     }

@@ -37,7 +37,7 @@ const Header = ({ links }: HeaderProps) => {
                 >
                     <img
                         className="_h-32px _h-48px-sm _pdv-4px _mgr-12px"
-                        src="./images/text-logo.svg"
+                        src="/images/text-logo.svg"
                     />
                 </Link>
 

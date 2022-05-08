@@ -1,6 +1,6 @@
 export const LIST = [
     {
-        imageSrc: './images/ecosystem/list/aleswap.png',
+        imageSrc: '/images/ecosystem/list/aleswap.png',
         title: 'AleSwap',
         description:
             'Every coin can dine. Redeem craft beer on Rei Chain. Spend your Coin with our beloved Partners.',
@@ -8,7 +8,7 @@ export const LIST = [
         tagList: ['DApp'],
     },
     {
-        imageSrc: './images/ecosystem/list/ryoii.png',
+        imageSrc: '/images/ecosystem/list/ryoii.png',
         title: 'Ryoii',
         description:
             'Platform that offers token rewards to users for high quality restaurant review.',
@@ -16,7 +16,7 @@ export const LIST = [
         tagList: ['DApp', 'Wallet', 'NFT'],
     },
     {
-        imageSrc: './images/ecosystem/list/payd.svg',
+        imageSrc: '/images/ecosystem/list/payd.svg',
         title: 'PayD',
         description:
             'Cryptocurrency Payment Processing for Business, to accept cryptocurrency on both online and offline platform.',
@@ -24,7 +24,7 @@ export const LIST = [
         tagList: ['DApp', 'Wallet'],
     },
     {
-        imageSrc: './images/ecosystem/list/laika.svg',
+        imageSrc: '/images/ecosystem/list/laika.svg',
         title: 'LAIKA',
         description:
             'We help you make requests to smart contracts without a single line of code.',
@@ -32,7 +32,7 @@ export const LIST = [
         tagList: ['DApp', 'Tooling'],
     },
     {
-        imageSrc: './images/ecosystem/list/speedboat.png',
+        imageSrc: '/images/ecosystem/list/speedboat.png',
         title: 'Speedboat',
         description:
             'World`s Finest NFT Generator. Metaverse Infrastructure Platform.',
@@ -40,14 +40,14 @@ export const LIST = [
         tagList: ['DApp', 'NFT'],
     },
     {
-        imageSrc: './images/ecosystem/list/foodcourt.svg',
+        imageSrc: '/images/ecosystem/list/foodcourt.svg',
         title: 'Foodcourt',
         description: '1# Innovation of Bridged yield farming on REI.',
         link: 'https://rei.foodcourt.finance/',
         tagList: ['DApp', 'DEX'],
     },
     {
-        imageSrc: './images/ecosystem/list/kururu.svg',
+        imageSrc: '/images/ecosystem/list/kururu.svg',
         title: 'Kururu',
         description:
             'kururu allows you to easily manage your tokens such as ERC20, NFT, or liquidity tokens across our services.',
@@ -55,7 +55,7 @@ export const LIST = [
         tagList: ['DApp', 'Tooling'],
     },
     {
-        imageSrc: './images/ecosystem/list/kuma.svg',
+        imageSrc: '/images/ecosystem/list/kuma.svg',
         title: 'KUMA',
         description:
             'Cross-chain Stable coin peg by multiple chains stable coins.',
@@ -63,7 +63,7 @@ export const LIST = [
         tagList: ['Stablecoin'],
     },
     {
-        imageSrc: './images/ecosystem/list/reamverse.png',
+        imageSrc: '/images/ecosystem/list/reamverse.png',
         title: 'Reamverse',
         description: 'Crowd Driven GameFi sponsored by KillSwitch',
         link: 'https://alpha.reamverse.io/',
@@ -71,14 +71,14 @@ export const LIST = [
         isComingSoon: true,
     },
     {
-        imageSrc: './images/ecosystem/list/loremboard.png',
+        imageSrc: '/images/ecosystem/list/loremboard.png',
         title: 'Loremboard',
         description: 'Multichain portfolio, the investment oracle. ',
         link: 'https://loremboard.finance/',
         tagList: ['DApp', 'Visualizer'],
     },
     {
-        imageSrc: './images/ecosystem/list/inspex.png',
+        imageSrc: '/images/ecosystem/list/inspex.png',
         title: 'Inspex',
         description:
             'Cybersecurity professional service, specialized in blockchain and smart contract audit.',
@@ -86,7 +86,7 @@ export const LIST = [
         tagList: ['Auditor'],
     },
     {
-        imageSrc: './images/ecosystem/list/northbridge.svg',
+        imageSrc: '/images/ecosystem/list/northbridge.svg',
         title: 'NorthBridge',
         description:
             'A system where farmers transfer through a Bridge similar to an original chain.',
@@ -94,21 +94,21 @@ export const LIST = [
         tagList: ['DApp', 'Bridge'],
     },
     {
-        imageSrc: './images/ecosystem/list/dechess.png',
+        imageSrc: '/images/ecosystem/list/dechess.png',
         title: 'Dechess',
         description: 'NFT Chesswar Game',
         link: null,
         tagList: ['DApp', 'NFT', 'Game'],
     },
     {
-        imageSrc: './images/ecosystem/list/dicert.png',
+        imageSrc: '/images/ecosystem/list/dicert.png',
         title: 'diCERT',
         description: 'Sweetly Reliably NFT Certificates.',
         link: 'https://www.dicert.co/',
         tagList: ['DApp', 'NFT'],
     },
     {
-        imageSrc: './images/ecosystem/list/aurumdefi.png',
+        imageSrc: '/images/ecosystem/list/aurumdefi.png',
         title: 'AurumDefi',
         description: (
             <>
@@ -123,14 +123,14 @@ export const LIST = [
         tagList: ['DApp', 'Lending'],
     },
     {
-        imageSrc: './images/ecosystem/list/arken.svg',
+        imageSrc: '/images/ecosystem/list/arken.svg',
         title: 'Arken',
         description: 'Discover your Best Swap on any coins with Charts.',
         link: 'https://arken.finance/',
         tagList: ['DApp', 'DEX', 'Visualizer'],
     },
     {
-        imageSrc: './images/ecosystem/list/deeplogo.png',
+        imageSrc: '/images/ecosystem/list/deeplogo.png',
         title: 'Deeplogo',
         description:
             'Play your favourite games and earn token. お気に入りのゲームをプレイしてトークンを獲得しましょう',
@@ -139,7 +139,7 @@ export const LIST = [
         tagList: ['DApp', 'Game', 'E-Sport'],
     },
     {
-        imageSrc: './images/ecosystem/list/acckenn.svg',
+        imageSrc: '/images/ecosystem/list/acckenn.svg',
         title: 'Acckenn',
         description:
             'We provide crypto tax and accounting services by professional accountants who understand crypto and blockchain technology. To simplify crypto tax and accounting compliance.',
@@ -148,7 +148,7 @@ export const LIST = [
         tagList: ['DApp', 'Accounting'],
     },
     {
-        imageSrc: './images/ecosystem/list/nftgt.png',
+        imageSrc: '/images/ecosystem/list/nftgt.png',
         title: 'NFTGT',
         description:
             'A unique nft marketplace with advanced market functionality. NFT assets can be tokenized, fractionalized, and collaterized, creating new investment opportunities.',
@@ -157,7 +157,7 @@ export const LIST = [
         tagList: ['DApp', 'NFT'],
     },
     {
-        imageSrc: './images/ecosystem/list/metaschool.png',
+        imageSrc: '/images/ecosystem/list/metaschool.png',
         title: 'MetaSchool',
         description: 'Make education more fun with VR and Blockchain.',
         isComingSoon: true,
@@ -165,7 +165,7 @@ export const LIST = [
         tagList: ['DApp', 'Education', 'VR', 'Metaverse'],
     },
     {
-        imageSrc: './images/ecosystem/list/buddybeater.jpg',
+        imageSrc: '/images/ecosystem/list/buddybeater.jpg',
         title: 'Buddy Beater',
         description: (
             <>
@@ -179,7 +179,7 @@ export const LIST = [
         tagList: ['DApp', 'NFT', 'Game'],
     },
     {
-        imageSrc: './images/ecosystem/list/avantis.svg',
+        imageSrc: '/images/ecosystem/list/avantis.svg',
         title: 'Avantis Protocol',
         description:
             'DeFi multi-asset trading platform. Invest in global assets via a single state-of-the-art investment platform',
@@ -188,7 +188,7 @@ export const LIST = [
         tagList: ['DApp', 'Real-Asset'],
     },
     {
-        imageSrc: './images/ecosystem/list/eternite.jpg',
+        imageSrc: '/images/ecosystem/list/eternite.jpg',
         title: 'Eternite Technovation',
         description:
             'EVO Mining Service. With our service, everyone can mine cryptocurrency and earn Bitcoin. Invest by using your own GPUs. Profit sharing model, limited contract period with renewal option. Transparency business model.',
@@ -196,7 +196,7 @@ export const LIST = [
         tagList: ['NFT', 'Mining'],
     },
     {
-        imageSrc: './images/ecosystem/list/landus.png',
+        imageSrc: '/images/ecosystem/list/landus.png',
         title: 'Landus',
         description:
             'A virtual world platform. A user in Landus can create, experience, and monetized content which will be viewable on a web that is running on the blockchain.',

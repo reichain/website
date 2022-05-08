@@ -18,7 +18,7 @@ export const SyntheticWorld = () => {
                     className="_w-100pct"
                     style={{ maxWidth: 700 }}
                     alt="synthetic-world"
-                    src="./images/home/synthetic-world/synthetic-world.png"
+                    src="/images/home/synthetic-world/synthetic-world.png"
                 />
             </div>
         </div>

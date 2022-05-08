@@ -94,7 +94,7 @@ export const Journey = () => {
                 />
                 <img
                     alt="Journey Node"
-                    src="./images/home/journey/journey-node.png"
+                    src="/images/home/journey/journey-node.png"
                     className="_mxw-256px _mxw-100pct-sm _mgt-32px _mgt-0px-sm"
                 />
             </div>

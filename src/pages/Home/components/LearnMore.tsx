@@ -50,12 +50,12 @@ export const LearnMore = () => {
                                 height={275}
                                 className="_pst-asl _bt-0px _r-0px _ojf-ct _pdl-32px _pdl-0px-sm _pdbt-4px _pdr-4px"
                                 style={{ objectPosition: 'bottom' }}
-                                src="./images/home/learn-more/learn-more-box.png"
+                                src="/images/home/learn-more/learn-more-box.png"
                             />
                             {/* <img
                                 className="_w-256px _w-320px-sm _mxw-100pct _mgt-at _mgl-at _ojf-c _pdbt-8px _pdbt-0px-sm _pdr-8px _pdr-0px-sm"
                                 style={{ margin: '-20px -32px -32px auto' }}
-                                src="./images/home/learn-more/learn-more-box.png"
+                                src="/images/home/learn-more/learn-more-box.png"
                             /> */}
                         </div>
                         <div className="_pst-rlt _dp-f _fdrt-cl _bgcl-white _cl-black _pdv-24px _pdv-32px-sm _pdh-24px _pdh-32px-sm">
@@ -77,13 +77,13 @@ export const LearnMore = () => {
                                 height={180}
                                 className="_pst-asl _bt-0px _r-0px _ojf-ct _pdl-24px _pdl-0px-sm _pdbt-12px _pdr-12px"
                                 style={{ objectPosition: 'bottom' }}
-                                src="./images/home/learn-more/validator-node.png"
+                                src="/images/home/learn-more/validator-node.png"
                             />
                             {/* <img
                                 width={180}
                                 className="_mxw-100pct _mgt-at _mgl-at _ojf-c _pdbt-8px _pdbt-0px-sm _pdr-8px _pdr-0px-sm"
                                 style={{ margin: '-10px -32px -32px auto' }}
-                                src="./images/home/learn-more/validator-node.png"
+                                src="/images/home/learn-more/validator-node.png"
                             /> */}
                         </div>
                     </div>

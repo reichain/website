@@ -6,7 +6,7 @@ export const Footer = () => {
             {/* <hr className="rei-hr" /> */}
             {/* <div className="_dp-f _fdrt-cl _fdrt-r-md _jtfct-spbtw _alit-ct _pdv-16px _pdv-12px-md _pdh-24px">
                 <img
-                    src="./images/rei-finance-white.svg"
+                    src="/images/rei-finance-white.svg"
                     className="_w-50pct _w-us-md _mxw-256px"
                 />
                 <SocialList className="_mgt-4px _mgbt-8px" />

@@ -51,7 +51,7 @@ export const HeaderLinks = () => {
                     className="rei-button -secondary -small _pdv-8px _w-fc-md _dp-f _alit-ct _mgr-8px-md"
                 >
                     <img
-                        src="./images/home/chainlist.png"
+                        src="/images/home/chainlist.png"
                         height="18"
                         width="18"
                         className="_mgr-8px"
@@ -193,7 +193,7 @@ export const HeaderLinks = () => {
                     style={{
                         backgroundColor: 'rgb(255 253 242)',
                     }}
-                    to="./ecosystem"
+                    to="/ecosystem"
                 >
                     Ecosystem
                 </Link>
