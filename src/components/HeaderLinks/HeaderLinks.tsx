@@ -244,6 +244,16 @@ export const HeaderLinks = () => {
                         >
                             Airdrop
                         </a>,
+                        <a
+                            key="2"
+                            className="rei-button -ghost -small _bgcl-tpr-md _bgcl-shader-hover _fw-400 _w-100pct _pdv-2px _pdh-24px _pdv-16px-md _pdh-24px-md"
+                            style={{
+                                backgroundColor: 'rgb(255 253 242)',
+                            }}
+                            href="https://nft.reichain.io"
+                        >
+                            NFT
+                        </a>,
                     ]}
                 />
                 <a
