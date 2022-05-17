@@ -58,6 +58,20 @@ const LIST = [
         className: '',
         containerClassName: '_pdv-4px',
     },
+    {
+        imageSrc: '/images/home/media-partner/bingaence.jpg',
+        title: 'ไบแง๊นน - Bingaence',
+        link: 'https://www.facebook.com/Bingaence',
+        className: '',
+        containerClassName: '_pdv-4px',
+    },
+    {
+        imageSrc: '/images/home/media-partner/papayatop.webp',
+        title: 'Papayatop',
+        link: 'https://www.facebook.com/papayatopz',
+        className: '',
+        containerClassName: '',
+    },
 ]
 
 export const MediaPartner = () => {
