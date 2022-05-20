@@ -86,6 +86,13 @@ const LIST = [
         className: '_pdh-12px',
         containerClassName: '',
     },
+    {
+        imageSrc: '/images/home/media-partner/insomniacrypto.jpg',
+        title: 'InsomniaCrypto',
+        link: 'https://www.facebook.com/insomniacrypto',
+        className: '',
+        containerClassName: '_pdv-4px',
+    },
 ]
 
 export const MediaPartner = () => {
