@@ -72,6 +72,20 @@ const LIST = [
         className: '',
         containerClassName: '',
     },
+    {
+        imageSrc: '/images/home/media-partner/cryptoholysheet.jpg',
+        title: 'CryptoHolySheet',
+        link: 'https://www.facebook.com/cryptoholysheet/',
+        className: '',
+        containerClassName: '',
+    },
+    {
+        imageSrc: '/images/home/media-partner/updatefarmnews.png',
+        title: 'UpdateFarmNews',
+        link: 'https://www.facebook.com/updatefarmnews',
+        className: '_pdh-12px',
+        containerClassName: '',
+    },
 ]
 
 export const MediaPartner = () => {
