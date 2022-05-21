@@ -93,6 +93,13 @@ const LIST = [
         className: '',
         containerClassName: '_pdv-4px',
     },
+    {
+        imageSrc: '/images/home/media-partner/hodlbeer.jpg',
+        title: 'HODL my beer',
+        link: 'https://www.facebook.com/hodlbeer',
+        className: '',
+        containerClassName: '_pdv-4px',
+    },
 ]
 
 export const MediaPartner = () => {
