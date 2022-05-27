@@ -107,6 +107,13 @@ const LIST = [
         className: '',
         containerClassName: '_pdv-4px',
     },
+    {
+        imageSrc: '/images/home/media-partner/notjiam.jpg',
+        title: 'Notjiam',
+        link: 'https://www.youtube.com/c/notjiam',
+        className: '',
+        containerClassName: '_pdv-4px',
+    },
 ]
 
 export const MediaPartner = () => {
