@@ -114,6 +114,13 @@ const LIST = [
         className: '',
         containerClassName: '_pdv-4px',
     },
+    {
+        imageSrc: '/images/home/media-partner/ananmoneyknowledge.png',
+        title: 'Ananmoneyknowledge',
+        link: 'https://www.facebook.com/Ananmoneyknowledge',
+        className: '',
+        containerClassName: '_pdv-4px',
+    },
 ]
 
 export const MediaPartner = () => {
