@@ -204,6 +204,15 @@ export const LIST = [
         tagList: ['DApp', 'Metaverse'],
         isComingSoon: true,
     },
+    {
+        imageSrc: '/images/ecosystem/list/covest.png',
+        title: 'Covest Finance',
+        description:
+            'A peer-to-peer insurance protocol that enabled people to share risk together without the need for insurance companies as the entities to manage and custody the fund.',
+        link: ' https://www.covest.finance/',
+        tagList: ['DApp', 'Insurance'],
+        isComingSoon: true,
+    },
 ].sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))
 
 export const TAG_LIST = (
