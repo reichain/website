@@ -36,7 +36,7 @@ export const LIST = [
         title: 'Speedboat',
         description:
             'World`s Finest NFT Generator. Metaverse Infrastructure Platform.',
-        link: 'https://rei.speedboat.studio/',
+        link: 'https://app.speedboat.studio/',
         tagList: ['DApp', 'NFT'],
     },
     {
