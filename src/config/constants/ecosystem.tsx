@@ -139,11 +139,10 @@ export const LIST = [
         tagList: ['DApp', 'Game', 'E-Sport'],
     },
     {
-        imageSrc: '/images/ecosystem/list/acckenn.svg',
+        imageSrc: '/images/ecosystem/list/acckenn.png',
         title: 'Acckenn',
         description:
-            'We provide crypto tax and accounting services by professional accountants who understand crypto and blockchain technology. To simplify crypto tax and accounting compliance.',
-        isComingSoon: true,
+            'Autonomously crypto tax calculator and accounting services.',
         link: 'https://acckenn.com/',
         tagList: ['DApp', 'Accounting'],
     },
