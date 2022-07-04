@@ -121,6 +121,13 @@ const LIST = [
         className: '',
         containerClassName: '_pdv-4px',
     },
+    {
+        imageSrc: '/images/home/media-partner/coincuddle.jpg',
+        title: 'Coincuddle',
+        link: 'https://www.facebook.com/coincuddle/',
+        className: '',
+        containerClassName: '_pdv-4px',
+    },
 ]
 
 export const MediaPartner = () => {

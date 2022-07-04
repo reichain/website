@@ -199,7 +199,7 @@ export const LIST = [
         title: 'Landus',
         description:
             'A virtual world platform. A user in Landus can create, experience, and monetized content which will be viewable on a web that is running on the blockchain.',
-        link: ' http://www.landus.io/',
+        link: 'http://www.landus.io/',
         tagList: ['DApp', 'Metaverse'],
         isComingSoon: true,
     },
@@ -208,7 +208,7 @@ export const LIST = [
         title: 'Covest Finance',
         description:
             'A peer-to-peer insurance protocol that enabled people to share risk together without the need for insurance companies as the entities to manage and custody the fund.',
-        link: ' https://www.covest.finance/',
+        link: 'https://www.covest.finance/',
         tagList: ['DApp', 'Insurance'],
         isComingSoon: true,
     },
