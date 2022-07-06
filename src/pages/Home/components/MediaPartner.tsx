@@ -128,6 +128,13 @@ const LIST = [
         className: '',
         containerClassName: '_pdv-4px',
     },
+    {
+        imageSrc: '/images/home/media-partner/meowcrypto.jpg',
+        title: 'เหมียวคริปโต - Meow Crypto',
+        link: 'https://www.facebook.com/meowcrypto.9cat',
+        className: '',
+        containerClassName: '_pdv-4px',
+    },
 ]
 
 export const MediaPartner = () => {
