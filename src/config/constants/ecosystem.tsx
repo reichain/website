@@ -29,7 +29,7 @@ export const LIST = [
         description:
             'We help you make requests to smart contracts without a single line of code.',
         link: 'https://getlaika.app/',
-        tagList: ['DApp', 'Tooling'],
+        tagList: ['DApp', 'Tooling', 'REI Faucet'],
     },
     {
         imageSrc: '/images/ecosystem/list/speedboat.png',
@@ -52,7 +52,7 @@ export const LIST = [
         description:
             'kururu allows you to easily manage your tokens such as ERC20, NFT, or liquidity tokens across our services.',
         link: 'https://kururu.finance/?chainId=55555',
-        tagList: ['DApp', 'Tooling'],
+        tagList: ['DApp', 'Tooling', 'REI Faucet'],
     },
     {
         imageSrc: '/images/ecosystem/list/kuma.svg',
