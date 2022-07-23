@@ -212,6 +212,14 @@ export const LIST = [
         tagList: ['DApp', 'Insurance'],
         isComingSoon: true,
     },
+    {
+        imageSrc: '/images/ecosystem/list/clv.svg',
+        title: 'CLV Wallet',
+        description:
+            'An open-source multi currency wallet that lives in your browser. Interact with cross-chain DeFi applications without needing to switch between networks in an all-in one streamlined interface.',
+        link: 'https://wallet.clover.finance',
+        tagList: ['Wallet', 'Extension'],
+    },
 ].sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))
 
 export const TAG_LIST = (
