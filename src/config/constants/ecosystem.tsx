@@ -220,6 +220,13 @@ export const LIST = [
         link: 'https://wallet.clover.finance',
         tagList: ['Wallet', 'Extension'],
     },
+    {
+        imageSrc: '/images/ecosystem/list/reipoint.svg',
+        title: 'REI Point',
+        description: 'Pointing System. Reward for Synthetic World to All.',
+        link: 'https://www.reipoint.io/',
+        tagList: ['DApp', 'Point'],
+    },
 ].sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))
 
 export const TAG_LIST = (
