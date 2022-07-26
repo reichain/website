@@ -223,7 +223,7 @@ export const LIST = [
     {
         imageSrc: '/images/ecosystem/list/reipoint.svg',
         title: 'REI Point',
-        description: 'Pointing System. Reward for Synthetic World to All.',
+        description: 'Pointing System. Your point your freedom.',
         link: 'https://www.reipoint.io/',
         tagList: ['DApp', 'Point'],
     },
