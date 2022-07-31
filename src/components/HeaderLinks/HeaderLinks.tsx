@@ -197,7 +197,7 @@ export const HeaderLinks = () => {
                 >
                     Ecosystem
                 </Link>
-                <a
+                {/* <a
                     className="rei-button -ghost _bgcl-tpr-md _bgcl-shader-hover _fw-400 _w-100pct _pd-8px-md _mgv-4px _mgh-8px"
                     style={{
                         backgroundColor: 'rgb(255 253 242)',
@@ -207,7 +207,7 @@ export const HeaderLinks = () => {
                     href="https://killswitchofficial.gitbook.io/rei-chain/developer/get-started"
                 >
                     Developer
-                </a>
+                </a> */}
                 {/* <Link
                     className="rei-button -ghost -disabled _bgcl-tpr-md _bgcl-shader-hover _fw-400 _w-100pct _pd-8px-md _mgv-4px _mgh-8px"
                     style={{
@@ -256,17 +256,46 @@ export const HeaderLinks = () => {
                         </a>,
                     ]}
                 />
-                <a
-                    className="rei-button -ghost -disabled _bgcl-tpr-md _bgcl-shader-hover _fw-400 _w-100pct _pd-8px-md _mgv-4px _mgh-8px"
-                    style={{
-                        backgroundColor: 'rgb(255 253 242)',
-                    }}
-                >
-                    Learn
-                    <span className="_fw-300 _fs-100 _cl-text-default-3 _mgl-2px _mgt-2px">
-                        (Soon)
-                    </span>
-                </a>
+                <CustomDropdown
+                    Button={({ onMouseOver }) => (
+                        <button
+                            className="rei-button -ghost _bgcl-tpr-md _bgcl-shader-hover _fw-400 _w-100pct _pd-8px-md _mgv-4px _mgh-8px-md"
+                            style={{
+                                backgroundColor: 'rgb(255 253 242)',
+                            }}
+                            onMouseOver={onMouseOver}
+                            onClick={onMouseOver}
+                        >
+                            Faucet
+                        </button>
+                    )}
+                    dropdownList={[
+                        <a
+                            key="1"
+                            className="rei-button -ghost -small _bgcl-tpr-md _bgcl-shader-hover _fw-400 _w-100pct _pdv-2px _pdh-24px _pdv-16px-md _pdh-24px-md"
+                            style={{
+                                backgroundColor: 'rgb(255 253 242)',
+                            }}
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://kururu.finance/faucet?chainId=55555"
+                        >
+                            Kururu
+                        </a>,
+                        <a
+                            key="2"
+                            className="rei-button -ghost -small _bgcl-tpr-md _bgcl-shader-hover _fw-400 _w-100pct _pdv-2px _pdh-24px _pdv-16px-md _pdh-24px-md"
+                            style={{
+                                backgroundColor: 'rgb(255 253 242)',
+                            }}
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://web.getlaika.app/"
+                        >
+                            Laika
+                        </a>,
+                    ]}
+                />
             </div>{' '}
         </>
     )
