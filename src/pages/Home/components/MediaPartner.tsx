@@ -142,6 +142,13 @@ const LIST = [
         className: '',
         containerClassName: '_pdv-4px',
     },
+    {
+        imageSrc: '/images/home/media-partner/crypto-entertainer.png',
+        title: 'Crypto Entertainer',
+        link: 'https://www.facebook.com/crypto.entertainer',
+        className: '',
+        containerClassName: '_pdv-4px',
+    },
 ]
 
 export const MediaPartner = () => {
