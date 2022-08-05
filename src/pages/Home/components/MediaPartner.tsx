@@ -135,6 +135,13 @@ const LIST = [
         className: '',
         containerClassName: '_pdv-4px',
     },
+    {
+        imageSrc: '/images/home/media-partner/mikki-pastel.png',
+        title: 'Mikki Pastel',
+        link: 'https://www.facebook.com/MikkiPastel',
+        className: '',
+        containerClassName: '_pdv-4px',
+    },
 ]
 
 export const MediaPartner = () => {
