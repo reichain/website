@@ -276,8 +276,6 @@ export const HeaderLinks = () => {
                             style={{
                                 backgroundColor: 'rgb(255 253 242)',
                             }}
-                            target="_blank"
-                            rel="noreferrer"
                             href="https://kururu.finance/faucet?chainId=55555"
                         >
                             Kururu
@@ -288,8 +286,6 @@ export const HeaderLinks = () => {
                             style={{
                                 backgroundColor: 'rgb(255 253 242)',
                             }}
-                            target="_blank"
-                            rel="noreferrer"
                             href="https://web.getlaika.app/"
                         >
                             Laika
