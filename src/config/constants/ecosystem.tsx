@@ -233,7 +233,7 @@ export const LIST = [
         description:
             'Tamago Finance provides a suite of trading for NFT collectors and teams.',
         link: 'https://nft.tamago.finance/',
-        tagList: ['DApp', 'NFT'],
+        tagList: ['DApp', 'NFT', 'Marketplace'],
     },
 ].sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))
 
