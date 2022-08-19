@@ -52,7 +52,7 @@ export const LIST = [
         description:
             'kururu allows you to easily manage your tokens such as ERC20, NFT, or liquidity tokens across our services.',
         link: 'https://kururu.finance/?chainId=55555',
-        tagList: ['DApp', 'Tooling', 'Faucet'],
+        tagList: ['DApp', 'Tooling', 'Faucet', 'NFT', 'Marketplace'],
     },
     {
         imageSrc: '/images/ecosystem/list/kuma.svg',
