@@ -227,6 +227,14 @@ export const LIST = [
         link: 'https://www.reipoint.io/',
         tagList: ['DApp', 'Point'],
     },
+    {
+        imageSrc: '/images/ecosystem/list/tamago.svg',
+        title: 'Tamago NFT Marketplace',
+        description:
+            'Tamago Finance provides a suite of trading for NFT collectors and teams.',
+        link: 'https://nft.tamago.finance/',
+        tagList: ['DApp', 'NFT'],
+    },
 ].sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))
 
 export const TAG_LIST = (
