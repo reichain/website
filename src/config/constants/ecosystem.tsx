@@ -210,7 +210,6 @@ export const LIST = [
             'Covest Finance is a risk-sharing protocol that enables the seamless transfer of risk between parties in the network by replacing traditional agreements with self-executing code stored on the blockchain.',
         link: 'https://www.covest.finance/',
         tagList: ['DApp', 'Insurance'],
-        isComingSoon: true,
     },
     {
         imageSrc: '/images/ecosystem/list/clv.svg',
