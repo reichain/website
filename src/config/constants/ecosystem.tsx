@@ -93,13 +93,13 @@ export const LIST = [
         link: 'https://northbridge.link/',
         tagList: ['DApp', 'Bridge'],
     },
-    {
-        imageSrc: '/images/ecosystem/list/dechess.png',
-        title: 'Dechess',
-        description: 'NFT Chesswar Game',
-        link: null,
-        tagList: ['DApp', 'NFT', 'Game'],
-    },
+    // {
+    //     imageSrc: '/images/ecosystem/list/dechess.png',
+    //     title: 'Dechess',
+    //     description: 'NFT Chesswar Game',
+    //     link: null,
+    //     tagList: ['DApp', 'NFT', 'Game'],
+    // },
     {
         imageSrc: '/images/ecosystem/list/dicert.png',
         title: 'diCERT',
@@ -163,20 +163,20 @@ export const LIST = [
         link: 'http://metaschool.town',
         tagList: ['DApp', 'Education', 'VR', 'Metaverse'],
     },
-    {
-        imageSrc: '/images/ecosystem/list/buddybeater.jpg',
-        title: 'Buddy Beater',
-        description: (
-            <>
-                Buddy Beater's{' '}
-                <span className="_cl-negative-500">NFTs on Rei Chain</span>{' '}
-                (Soon on Speedboat NFT Centralize Bridge)
-            </>
-        ),
-        isComingSoon: true,
-        link: 'https://buddybeater.io/',
-        tagList: ['DApp', 'NFT', 'Game'],
-    },
+    // {
+    //     imageSrc: '/images/ecosystem/list/buddybeater.jpg',
+    //     title: 'Buddy Beater',
+    //     description: (
+    //         <>
+    //             Buddy Beater's{' '}
+    //             <span className="_cl-negative-500">NFTs on Rei Chain</span>{' '}
+    //             (Soon on Speedboat NFT Centralize Bridge)
+    //         </>
+    //     ),
+    //     isComingSoon: true,
+    //     link: 'https://buddybeater.io/',
+    //     tagList: ['DApp', 'NFT', 'Game'],
+    // },
     {
         imageSrc: '/images/ecosystem/list/avantis.svg',
         title: 'Avantis Protocol',
