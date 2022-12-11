@@ -235,7 +235,7 @@ export const LIST = [
     //     tagList: ['DApp', 'NFT', 'Marketplace'],
     // },
     {
-        imageSrc: '/images/ecosystem/list/armity.svg',
+        imageSrc: '/images/ecosystem/list/armity.png',
         title: 'Armity NFT Playground',
         description:
             'Make use of your NFT to its fullest. Bring them anywhere you travel and enjoy the newest lifestyle.',
