@@ -226,13 +226,21 @@ export const LIST = [
         link: 'https://www.reipoint.io/',
         tagList: ['DApp', 'Point'],
     },
+    // {
+    //     imageSrc: '/images/ecosystem/list/tamago.svg',
+    //     title: 'Tamago NFT Marketplace',
+    //     description:
+    //         'Tamago Finance provides a suite of trading for NFT collectors and teams.',
+    //     link: 'https://nft.tamago.finance/',
+    //     tagList: ['DApp', 'NFT', 'Marketplace'],
+    // },
     {
-        imageSrc: '/images/ecosystem/list/tamago.svg',
-        title: 'Tamago NFT Marketplace',
+        imageSrc: '/images/ecosystem/list/armity.svg',
+        title: 'Armity NFT Playground',
         description:
-            'Tamago Finance provides a suite of trading for NFT collectors and teams.',
-        link: 'https://nft.tamago.finance/',
-        tagList: ['DApp', 'NFT', 'Marketplace'],
+            'Make use of your NFT to its fullest. Bring them anywhere you travel and enjoy the newest lifestyle.',
+        link: 'https://www.armity.com/',
+        tagList: ['DApp', 'NFT', 'Wallet'],
     },
 ].sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))
 
