@@ -146,15 +146,15 @@ export const LIST = [
         link: 'https://acckenn.com/',
         tagList: ['DApp', 'Accounting'],
     },
-    {
-        imageSrc: '/images/ecosystem/list/nftgt.png',
-        title: 'NFTGT',
-        description:
-            'A unique nft marketplace with advanced market functionality. NFT assets can be tokenized, fractionalized, and collaterized, creating new investment opportunities.',
-        isComingSoon: true,
-        link: 'https://nftgt.net',
-        tagList: ['DApp', 'NFT'],
-    },
+    // {
+    //     imageSrc: '/images/ecosystem/list/nftgt.png',
+    //     title: 'NFTGT',
+    //     description:
+    //         'A unique nft marketplace with advanced market functionality. NFT assets can be tokenized, fractionalized, and collaterized, creating new investment opportunities.',
+    //     isComingSoon: true,
+    //     link: 'https://nftgt.net',
+    //     tagList: ['DApp', 'NFT','Marketplace'],
+    // },
     {
         imageSrc: '/images/ecosystem/list/metaschool.png',
         title: 'MetaSchool',
@@ -194,12 +194,21 @@ export const LIST = [
         link: 'https://eternite.tech/',
         tagList: ['NFT', 'Mining'],
     },
+    // {
+    //     imageSrc: '/images/ecosystem/list/landus.png',
+    //     title: 'Landus',
+    //     description:
+    //         'A virtual world platform. A user in Landus can create, experience, and monetized content which will be viewable on a web that is running on the blockchain.',
+    //     link: 'http://www.landus.io/',
+    //     tagList: ['DApp', 'Metaverse'],
+    //     isComingSoon: true,
+    // },
     {
-        imageSrc: '/images/ecosystem/list/landus.png',
-        title: 'Landus',
+        imageSrc: '/images/ecosystem/list/innozity.png',
+        title: 'Innozity',
         description:
-            'A virtual world platform. A user in Landus can create, experience, and monetized content which will be viewable on a web that is running on the blockchain.',
-        link: 'http://www.landus.io/',
+            'Welcome to Innozity Art Gallery, the hybrid art gallery hub that connects physical art to virtual reality. experience for users worldwide.',
+        link: 'http://www.innozity.com/',
         tagList: ['DApp', 'Metaverse'],
         isComingSoon: true,
     },
@@ -241,6 +250,14 @@ export const LIST = [
             'Make use of your NFT to its fullest. Bring them anywhere you travel and enjoy the newest lifestyle.',
         link: 'https://www.armity.com/',
         tagList: ['DApp', 'NFT', 'Wallet'],
+    },
+    {
+        imageSrc: '/images/ecosystem/list/kitsune.svg',
+        title: 'Kitsune NFT Marketplace',
+        description:
+            'Kitsune is a marketplace for buying, selling and trading unique digital items on the rei blockchain. It features a variety of items such as NFTs and digital collectibles for users to browse and purchase. Users can also list and sell their own items.',
+        link: 'https://rnft.reichain.io/',
+        tagList: ['DApp', 'NFT', 'Marketplace'],
     },
 ].sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))
 
